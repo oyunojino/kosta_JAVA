@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/InputOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/OperatorEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/TernaryEx.java" afterDir="false" />
-    </list>
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="변경" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +46,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -121,12 +108,24 @@
       <updated>1691545754695</updated>
       <workItem from="1691545755693" duration="1487000" />
       <workItem from="1691547259750" duration="8899000" />
-      <workItem from="1691561588184" duration="6644000" />
+      <workItem from="1691561588184" duration="6939000" />
     </task>
+    <task id="LOCAL-00001" summary="변경">
+      <created>1691570013449</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691570013449</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="변경" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
