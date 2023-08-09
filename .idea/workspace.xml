@@ -26,6 +26,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "OPEN",
+      "assignee": "oyunojino",
+      "author": "oyunojino"
+    }
+  ],
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "oyunojino",
+    "author": "oyunojino"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b529ecd7-ae8e-4751-8881-3160b9d2d707" />
+        <option name="url" value="https://github.com/oyunojino/kosta_JAVA.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="KotlinCodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
@@ -108,7 +130,7 @@
       <updated>1691545754695</updated>
       <workItem from="1691545755693" duration="1487000" />
       <workItem from="1691547259750" duration="8899000" />
-      <workItem from="1691561588184" duration="6939000" />
+      <workItem from="1691561588184" duration="7313000" />
     </task>
     <task id="LOCAL-00001" summary="변경">
       <created>1691570013449</created>
@@ -117,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691570013449</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="변경">
+      <created>1691570440017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691570440017</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
