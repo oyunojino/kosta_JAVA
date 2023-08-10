@@ -11,6 +11,13 @@ public class Ex_14_class_1_circle {
 class Circle {
   private double radius = 0.0;
 
+  public Circle() {
+  }
+
+  public Circle(double radius) {
+    this.radius = radius;
+  }
+
   public double getRadius() {
     return radius;
   }
