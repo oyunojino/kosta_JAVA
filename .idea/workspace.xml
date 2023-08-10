@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="클래스 캡슐화 관련 예제">
-      <change afterPath="$PROJECT_DIR$/src/basic_0810/Ex_16_class_3_extends.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0810/Ex_17_class_4_extends_ani.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="상속 관련 예제">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_0810/Ex_14_class_1_circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0810/Ex_14_class_1_circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_0810/Ex_15_class_2_useCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0810/Ex_15_class_2_useCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_0810/Ex_17_class_4_extends_ani.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0810/Ex_17_class_4_extends_ani.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,7 @@
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex_17_class_4_extends_ani">
+  <component name="RunManager" selected="Application.Ex_15_class_2_useCircle">
     <configuration name="Ex_10_method_2_static" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic_0810.Ex_10_method_2_static" />
       <module name="newProject" />
@@ -155,8 +156,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex_17_class_4_extends_ani" />
         <item itemvalue="Application.Ex_15_class_2_useCircle" />
+        <item itemvalue="Application.Ex_17_class_4_extends_ani" />
         <item itemvalue="Application.Ex_14_class_1_circle" />
         <item itemvalue="Application.Ex_13_method_5_overloading" />
         <item itemvalue="Application.Ex_10_method_2_static" />
@@ -177,7 +178,7 @@
       <workItem from="1691570613131" duration="273000" />
       <workItem from="1691627849363" duration="14970000" />
       <workItem from="1691646702930" duration="4468000" />
-      <workItem from="1691653727966" duration="87000" />
+      <workItem from="1691653727966" duration="2335000" />
     </task>
     <task id="LOCAL-00001" summary="변경">
       <created>1691570013449</created>
@@ -277,7 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691653254905</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="상속 관련 예제">
+      <created>1691654049542</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1691654049542</updated>
+    </task>
+    <task id="LOCAL-00016" summary="상속 관련 예제">
+      <created>1691654077799</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1691654077799</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +319,8 @@
     <MESSAGE value="메서드 관련 예제" />
     <MESSAGE value="오버로딩 관련 예제" />
     <MESSAGE value="클래스 캡슐화 관련 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="클래스 캡슐화 관련 예제" />
+    <MESSAGE value="상속 관련 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="상속 관련 예제" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

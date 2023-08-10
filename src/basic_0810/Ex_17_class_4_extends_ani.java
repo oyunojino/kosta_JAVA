@@ -2,6 +2,10 @@ package basic_0810;
 
 public class Ex_17_class_4_extends_ani {
   public static void main(String[] args) {
+//    상위 클래스인 object 내용 확인해보기
+    Object obj = new Object();
+//    obj.
+
     Bird bird = new Bird();
     bird.날다();
     bird.숨쉰다();
