@@ -5,6 +5,7 @@ public class Ex_11_method_3 {
 
     MyMath myMath = new MyMath();
     long res1 = myMath.add(1000L, 200L);
+    long res2 = myMath.div(200L, 10L);
 
 
   }
@@ -18,7 +19,7 @@ class MyMath {
       return 0L;
     }
     return num1 / num2;
-  }
+}
 
   long add(long num1, long num2) {
     return num1 + num2;
