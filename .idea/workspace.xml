@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="상속 관련 예제">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic_0810/Ex_14_class_1_circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0810/Ex_14_class_1_circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic_0810/Ex_15_class_2_useCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0810/Ex_15_class_2_useCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic_0810/Ex_17_class_4_extends_ani.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0810/Ex_17_class_4_extends_ani.java" afterDir="false" />
-    </list>
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="상위 클래스(Object)가 상속하는 내용 확인" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +173,7 @@
       <workItem from="1691570613131" duration="273000" />
       <workItem from="1691627849363" duration="14970000" />
       <workItem from="1691646702930" duration="4468000" />
-      <workItem from="1691653727966" duration="2335000" />
+      <workItem from="1691653727966" duration="2683000" />
     </task>
     <task id="LOCAL-00001" summary="변경">
       <created>1691570013449</created>
@@ -292,7 +287,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691654077799</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="오버라이딩 관련 수정">
+      <created>1691656157469</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1691656157469</updated>
+    </task>
+    <task id="LOCAL-00018" summary="상위 클래스(Object)가 상속하는 내용 확인">
+      <created>1691656215018</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1691656215018</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +329,9 @@
     <MESSAGE value="오버로딩 관련 예제" />
     <MESSAGE value="클래스 캡슐화 관련 예제" />
     <MESSAGE value="상속 관련 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="상속 관련 예제" />
+    <MESSAGE value="오버라이딩 관련 수정" />
+    <MESSAGE value="상위 클래스(Object)가 상속하는 내용 확인" />
+    <option name="LAST_COMMIT_MESSAGE" value="상위 클래스(Object)가 상속하는 내용 확인" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
