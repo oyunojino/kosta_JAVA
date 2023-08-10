@@ -1,6 +1,6 @@
 package basic_0810;
 
-public class Ex_05_switch_method {
+public class Ex_05_switch_func {
   //  # switch문
 //   - (자바 ver.7)부터 문자열과 열거(enum)타입도 사용 가능
 //   - break문을 만나기 전까지는 계속 흐르는 성절이 있음
