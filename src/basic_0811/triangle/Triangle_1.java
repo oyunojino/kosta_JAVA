@@ -1,16 +1,16 @@
-package basic_0811.triangle1;
+package basic_0811.triangle;
 
 /**
  * Q: 삼각형을 나타내는 Triangle 클래스를 작성
  * 속성 -> 밑변(실수), 높이(실수)
  * 동작 -> 넓이 구하기, 접근자, 생성자
  */
-public class Triangle {
+public class Triangle_1 {
   private double width = 0.0;
   private double height = 0.0;
 
   // 생성자
-  public Triangle(double width, double height) {
+  public Triangle_1(double width, double height) {
     this.width = width;
     this.height = height;
   }
