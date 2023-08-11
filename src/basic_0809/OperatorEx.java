@@ -1,4 +1,4 @@
-package sample;
+package basic_0809;
 
 public class OperatorEx {
   public static void main(String[] args) {

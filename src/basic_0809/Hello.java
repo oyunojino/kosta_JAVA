@@ -1,4 +1,4 @@
-package sample;
+package basic_0809;
 
 /**
  * Hello sample class
