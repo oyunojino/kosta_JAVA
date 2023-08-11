@@ -1,4 +1,4 @@
-package basic_0811.triangle;
+package basic_0811.triangle1;
 
 /**
  * Q: 삼각형을 나타내는 Triangle 클래스를 작성

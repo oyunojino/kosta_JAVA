@@ -1,4 +1,4 @@
-package basic_0811.triangle;
+package basic_0811.triangle1;
 
 public class TriangleTest {
   public static void main(String[] args) {
