@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="회원을 모델링한 Member 클래스 생성">
-      <change afterPath="$PROJECT_DIR$/src/basic_0811/circle/Circle_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0811/circle/Circle_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0811/circle/UseCircle_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0811/circle/UseCircle_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0811/person/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0811/person/PersonTest.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment=".equalsIgnoreCase() 사용">
+      <change afterPath="$PROJECT_DIR$/src/basic_0811/student/StudentInitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic_0811/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0811/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic_0811/member/MemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0811/member/MemberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +94,7 @@
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MemberTest">
+  <component name="RunManager" selected="Application.StudentInitTest (1)">
     <configuration name="MemberTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic_0811.member.MemberTest" />
       <module name="newProject" />
@@ -128,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0811.triangle.TriangleTest_1" />
+    <configuration name="StudentInitTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0811.student.StudentInitTest" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0811.triangle.*" />
+          <option name="PATTERN" value="basic_0811.student.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleTest_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0811.triangle.TriangleTest_2" />
+    <configuration name="StudentInitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0811.student.StudentInitTest" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0811.triangle.*" />
+          <option name="PATTERN" value="basic_0811.student.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentInitTest (1)" />
+        <item itemvalue="Application.StudentInitTest" />
         <item itemvalue="Application.MemberTest" />
         <item itemvalue="Application.UseCircle_3" />
         <item itemvalue="Application.PersonTest" />
-        <item itemvalue="Application.TriangleTest_2" />
-        <item itemvalue="Application.TriangleTest_1" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +186,7 @@
       <workItem from="1691646702930" duration="4468000" />
       <workItem from="1691653727966" duration="3139000" />
       <workItem from="1691713987620" duration="8085000" />
-      <workItem from="1691722135708" duration="11199000" />
+      <workItem from="1691722135708" duration="12482000" />
     </task>
     <task id="LOCAL-00001" summary="변경">
       <created>1691570013449</created>
@@ -405,7 +398,35 @@
       <option name="project" value="LOCAL" />
       <updated>1691735711529</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="print 메서드 생성">
+      <created>1691737192088</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1691737192088</updated>
+    </task>
+    <task id="LOCAL-00032" summary="this() 사용해서 수정">
+      <created>1691737276252</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1691737276252</updated>
+    </task>
+    <task id="LOCAL-00033" summary="연쇄적으로 사용하고 싶을 때,&#10;1. 데이터 타입을 Person 으로 지정&#10;2. return값은 this로 지정">
+      <created>1691737353997</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1691737353997</updated>
+    </task>
+    <task id="LOCAL-00034" summary=".equalsIgnoreCase() 사용">
+      <created>1691737387878</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1691737387878</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +464,11 @@
     <MESSAGE value="triangle(ver.1) 수정" />
     <MESSAGE value="triangle(ver.1) 예제" />
     <MESSAGE value="회원을 모델링한 Member 클래스 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="회원을 모델링한 Member 클래스 생성" />
+    <MESSAGE value="print 메서드 생성" />
+    <MESSAGE value="this() 사용해서 수정" />
+    <MESSAGE value="연쇄적으로 사용하고 싶을 때,&#10;1. 데이터 타입을 Person 으로 지정&#10;2. return값은 this로 지정" />
+    <MESSAGE value=".equalsIgnoreCase() 사용" />
+    <option name="LAST_COMMIT_MESSAGE" value=".equalsIgnoreCase() 사용" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
