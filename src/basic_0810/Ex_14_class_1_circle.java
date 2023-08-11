@@ -22,7 +22,23 @@ class Circle {
     return radius;
   }
 
+  /**
+   * 원의 넓이를 구하는 findArea 메서드
+   * 조건 -> Math.PI() 사용, 소수 두번쨰 자리까지
+   * 공식 -> 반지름 * 반지름 * 원주율
+   *
+   * @return
+   */
+  public double findArea() {
+    return Math.round(((radius * radius * Math.PI)*100)/100.0);
+    //TODO
+  }
+
   public void setRadius(double radius) {
-    this.radius = radius;
+    if (radius <= 0.0) {
+      System.out.println("원의 반지름은 0보다 커야 합니다.");
+    } else {
+      this.radius = radius;
+    }
   }
 }
