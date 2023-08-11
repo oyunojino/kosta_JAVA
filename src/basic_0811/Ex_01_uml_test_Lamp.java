@@ -1,4 +1,4 @@
-package basic_test_0811;
+package basic_0811;
 
 public class Ex_01_uml_test_Lamp {
   boolean status;

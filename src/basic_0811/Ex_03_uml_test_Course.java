@@ -1,4 +1,4 @@
-package basic_test_0811;
+package basic_0811;
 
 public class Ex_03_uml_test_Course {
   private String id;
