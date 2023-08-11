@@ -49,7 +49,7 @@ public class Member {
     }
   }
 
-//  public void print() {
-//    System.out.printf("이름 : %s\n아이디 : %s\n비밀번호 : %s\n나이 : %d");
-//  }
+  public void print() {
+    System.out.printf("이름 : %s\n아이디 : %s\n비밀번호 : %s\n나이 : %d", name, id, pw, age);
+  }
 }
