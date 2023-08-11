@@ -18,11 +18,26 @@ class Bird extends Animal {
   void 날다() {
     System.out.println("날다");
   }
+
+  @Override
+  void 움직인다() {
+    super.움직인다();
+
+//    System.out.println("날다");
+//    System.out.println("달린다");
+//    System.out.println("헤엄치다");
+  }
 }
 
 class Tiger extends Animal {
   void 달리다() {
     System.out.println("달린다");
+  }
+}
+
+class Fish extends Animal {
+  void 헤엄치다() {
+    System.out.println("헤엄치다");
   }
 }
 
