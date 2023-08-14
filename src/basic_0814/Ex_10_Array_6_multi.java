@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Ex_10_Array_6_multi {
   public static void main(String[] args) {
-    int scores[][] = new int[3][5];
+    int scores[][];
 
     scores = new int[][]{
         {100, 90, 80, 70, 60},
