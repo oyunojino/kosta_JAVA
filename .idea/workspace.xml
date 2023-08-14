@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment=".equalsIgnoreCase() 사용">
-      <change afterPath="$PROJECT_DIR$/src/basic_0811/student/StudentInitTest.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="Math.random() 예제">
+      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_01_String_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_02_String_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_test_02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,22 +70,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/code_kosta/KOSTA_newProject/newProject/src/basic_0811/Circle",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/code_kosta/KOSTA_newProject/newProject/src/basic_0811/Circle&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\code_kosta\KOSTA_newProject\newProject\src\basic_0811\Circle" />
@@ -91,16 +93,17 @@
       <recent name="C:\code_kosta\KOSTA_newProject\newProject\src\basic_0811\triangle2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basic_0811" />
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentInitTest (1)">
-    <configuration name="MemberTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0811.member.MemberTest" />
+  <component name="RunManager" selected="Application.Ex_02_String_2">
+    <configuration name="Ex_01_String_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_01_String_1" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0811.member.*" />
+          <option name="PATTERN" value="basic_0814.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0811.person.PersonTest" />
+    <configuration name="Ex_02_String_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_02_String_2" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0811.person.*" />
+          <option name="PATTERN" value="basic_0814.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentInitTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0811.student.StudentInitTest" />
+    <configuration name="Ex_12_dice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0811.Ex_12_dice" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0811.student.*" />
+          <option name="PATTERN" value="basic_0811.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentInitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0811.student.StudentInitTest" />
+    <configuration name="Ex_13_diceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0811.Ex_13_diceTest" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0811.student.*" />
+          <option name="PATTERN" value="basic_0811.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseCircle_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0811.circle.UseCircle_3" />
+    <configuration name="Ex_test_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_test_02" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0811.circle.*" />
+          <option name="PATTERN" value="basic_0814.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StudentInitTest (1)" />
-        <item itemvalue="Application.StudentInitTest" />
-        <item itemvalue="Application.MemberTest" />
-        <item itemvalue="Application.UseCircle_3" />
-        <item itemvalue="Application.PersonTest" />
+        <item itemvalue="Application.Ex_02_String_2" />
+        <item itemvalue="Application.Ex_01_String_1" />
+        <item itemvalue="Application.Ex_test_02" />
+        <item itemvalue="Application.Ex_13_diceTest" />
+        <item itemvalue="Application.Ex_12_dice" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +189,10 @@
       <workItem from="1691646702930" duration="4468000" />
       <workItem from="1691653727966" duration="3139000" />
       <workItem from="1691713987620" duration="8085000" />
-      <workItem from="1691722135708" duration="12482000" />
+      <workItem from="1691722135708" duration="16774000" />
+      <workItem from="1691743623211" duration="45000" />
+      <workItem from="1691743678060" duration="1000" />
+      <workItem from="1691972667798" duration="3320000" />
     </task>
     <task id="LOCAL-00001" summary="변경">
       <created>1691570013449</created>
@@ -426,7 +432,28 @@
       <option name="project" value="LOCAL" />
       <updated>1691737387878</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="static 메서드 예제">
+      <created>1691739097656</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1691739097656</updated>
+    </task>
+    <task id="LOCAL-00036" summary="singleton 예제">
+      <created>1691743637713</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1691743637713</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Math.random() 예제">
+      <created>1691743650979</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1691743650979</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,8 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="변경" />
-    <MESSAGE value="if문 예제" />
     <MESSAGE value="switch문 예제" />
     <MESSAGE value="반복문 예제" />
     <MESSAGE value="static 메서드 관련 예제" />
@@ -468,7 +493,10 @@
     <MESSAGE value="this() 사용해서 수정" />
     <MESSAGE value="연쇄적으로 사용하고 싶을 때,&#10;1. 데이터 타입을 Person 으로 지정&#10;2. return값은 this로 지정" />
     <MESSAGE value=".equalsIgnoreCase() 사용" />
-    <option name="LAST_COMMIT_MESSAGE" value=".equalsIgnoreCase() 사용" />
+    <MESSAGE value="static 메서드 예제" />
+    <MESSAGE value="singleton 예제" />
+    <MESSAGE value="Math.random() 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="Math.random() 예제" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
