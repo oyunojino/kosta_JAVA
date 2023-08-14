@@ -1,20 +1,12 @@
 package basic_0810;
 
 public class Ex_14_class_1_circle {
-  public static void main(String[] args) {
-    Circle circle = new Circle();
-    circle.setRadius(10.05);
-    System.out.println("circle = " + circle.getRadius());
-  }
-}
-
-class Circle {
   private double radius = 0.0;
 
-  public Circle() {
+  public Ex_14_class_1_circle() {
   }
 
-  public Circle(double radius) {
+  public Ex_14_class_1_circle(double radius) {
     this.radius = radius;
   }
 
@@ -30,8 +22,7 @@ class Circle {
    * @return
    */
   public double findArea() {
-    return Math.round(((radius * radius * Math.PI)*100)/100.0);
-    //TODO
+    return Math.round(((radius * radius * Math.PI) * 100) / 100.0);
   }
 
   public void setRadius(double radius) {
