@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="정적 메서드 예제">
-      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_05_Array_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_06_Array_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_07_Array_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_08_Array_4_test.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="10단위 간격의 히스토그램 출력 메서드 작성">
+      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_11_Array_7_class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_12_Array_8_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_13_Array_9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic_0814/Ex_03_String_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0814/Ex_03_String_3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,9 +97,9 @@
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex_08_Array_4_test">
-    <configuration name="Ex_04_String_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_04_String_4" />
+  <component name="RunManager" selected="Application.Ex_11_Array_7_class">
+    <configuration name="Ex_11_Array_7_class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_11_Array_7_class" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_05_Array_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_05_Array_1" />
+    <configuration name="Ex_12_Array_8_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_12_Array_8_Test" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_06_Array_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_06_Array_2" />
+    <configuration name="Ex_13_Array_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_13_Array_9" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -139,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_07_Array_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_07_Array_3" />
+    <configuration name="Ex_14_Array_12_Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_14_Array_12_Test4" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +150,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_08_Array_4_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_08_Array_4_test" />
+    <configuration name="Ex_14_Array_13_Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_14_Array_13_Test5" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -167,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex_08_Array_4_test" />
-        <item itemvalue="Application.Ex_07_Array_3" />
-        <item itemvalue="Application.Ex_06_Array_2" />
-        <item itemvalue="Application.Ex_05_Array_1" />
-        <item itemvalue="Application.Ex_04_String_4" />
+        <item itemvalue="Application.Ex_11_Array_7_class" />
+        <item itemvalue="Application.Ex_12_Array_8_Test" />
+        <item itemvalue="Application.Ex_13_Array_9" />
+        <item itemvalue="Application.Ex_14_Array_13_Test5" />
+        <item itemvalue="Application.Ex_14_Array_12_Test4" />
       </list>
     </recent_temporary>
   </component>
@@ -194,35 +192,7 @@
       <workItem from="1691722135708" duration="16774000" />
       <workItem from="1691743623211" duration="45000" />
       <workItem from="1691743678060" duration="1000" />
-      <workItem from="1691972667798" duration="10459000" />
-    </task>
-    <task id="LOCAL-00001" summary="변경">
-      <created>1691570013449</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1691570013449</updated>
-    </task>
-    <task id="LOCAL-00002" summary="변경">
-      <created>1691570440017</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1691570440017</updated>
-    </task>
-    <task id="LOCAL-00003" summary="변경">
-      <created>1691570623780</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1691570623780</updated>
-    </task>
-    <task id="LOCAL-00004" summary="if문 예제">
-      <created>1691631288112</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1691631288112</updated>
+      <workItem from="1691972667798" duration="25121000" />
     </task>
     <task id="LOCAL-00005" summary="switch문 예제">
       <created>1691632222222</created>
@@ -490,7 +460,84 @@
       <option name="project" value="LOCAL" />
       <updated>1691979668241</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="수정">
+      <created>1691984658624</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1691984658624</updated>
+    </task>
+    <task id="LOCAL-00044" summary="배열 예제">
+      <created>1691987149811</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1691987149811</updated>
+    </task>
+    <task id="LOCAL-00045" summary="다차원 배열 예제">
+      <created>1691991002371</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1691991002371</updated>
+    </task>
+    <task id="LOCAL-00046" summary="String 배열 예제">
+      <created>1691991013783</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1691991013783</updated>
+    </task>
+    <task id="LOCAL-00047" summary="배열 선언방법 변경">
+      <created>1692001748608</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1692001748608</updated>
+    </task>
+    <task id="LOCAL-00048" summary="생성자명 변경 및 오류 수정">
+      <created>1692001775843</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1692001775843</updated>
+    </task>
+    <task id="LOCAL-00049" summary="파일 삭제">
+      <created>1692001787850</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1692001787850</updated>
+    </task>
+    <task id="LOCAL-00050" summary="문자열에 포함된 문자의 개수를 반환하는 메서드 구현">
+      <created>1692001848950</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1692001848951</updated>
+    </task>
+    <task id="LOCAL-00051" summary="for문 for~each문으로 변경">
+      <created>1692001870118</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1692001870118</updated>
+    </task>
+    <task id="LOCAL-00052" summary="String 클래스에서 제공하는 문자열 조작 메서드 사용&#10;-&gt; .endsWith() / .contains() / .toLowerCase()">
+      <created>1692001965456</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1692001965457</updated>
+    </task>
+    <task id="LOCAL-00053" summary="10단위 간격의 히스토그램 출력 메서드 작성">
+      <created>1692002007734</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1692002007734</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,17 +555,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="오버로딩 관련 예제" />
-    <MESSAGE value="클래스 캡슐화 관련 예제" />
-    <MESSAGE value="상속 관련 예제" />
-    <MESSAGE value="오버라이딩 관련 수정" />
-    <MESSAGE value="상위 클래스(Object)가 상속하는 내용 확인" />
-    <MESSAGE value="override로 변경" />
-    <MESSAGE value="UML 관련 표를 코드로 변경" />
-    <MESSAGE value="패키지명 변경" />
-    <MESSAGE value="클래스 변수 설명" />
-    <MESSAGE value="오전 내용_보완 필요" />
-    <MESSAGE value="triangle(ver.1) 수정" />
     <MESSAGE value="triangle(ver.1) 예제" />
     <MESSAGE value="회원을 모델링한 Member 클래스 생성" />
     <MESSAGE value="print 메서드 생성" />
@@ -533,7 +569,18 @@
     <MESSAGE value="문자열 비교 관련 내용" />
     <MESSAGE value="문자열 조작 메서드 예제" />
     <MESSAGE value="정적 메서드 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="정적 메서드 예제" />
+    <MESSAGE value="수정" />
+    <MESSAGE value="배열 예제" />
+    <MESSAGE value="다차원 배열 예제" />
+    <MESSAGE value="String 배열 예제" />
+    <MESSAGE value="배열 선언방법 변경" />
+    <MESSAGE value="생성자명 변경 및 오류 수정" />
+    <MESSAGE value="파일 삭제" />
+    <MESSAGE value="문자열에 포함된 문자의 개수를 반환하는 메서드 구현" />
+    <MESSAGE value="for문 for~each문으로 변경" />
+    <MESSAGE value="String 클래스에서 제공하는 문자열 조작 메서드 사용&#10;-&gt; .endsWith() / .contains() / .toLowerCase()" />
+    <MESSAGE value="10단위 간격의 히스토그램 출력 메서드 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="10단위 간격의 히스토그램 출력 메서드 작성" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
