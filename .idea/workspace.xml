@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="Math.random() 예제">
-      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_01_String_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_02_String_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_test_02.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="문자열 비교 관련 내용">
+      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_03_String_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_04_String_4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +96,7 @@
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex_02_String_2">
+  <component name="RunManager" selected="Application.Ex_04_String_4">
     <configuration name="Ex_01_String_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_01_String_1" />
       <module name="newProject" />
@@ -124,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_12_dice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0811.Ex_12_dice" />
+    <configuration name="Ex_03_String_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_03_String_3" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0811.*" />
+          <option name="PATTERN" value="basic_0814.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_13_diceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0811.Ex_13_diceTest" />
+    <configuration name="Ex_04_String_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_04_String_4" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0811.*" />
+          <option name="PATTERN" value="basic_0814.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex_04_String_4" />
+        <item itemvalue="Application.Ex_03_String_3" />
         <item itemvalue="Application.Ex_02_String_2" />
         <item itemvalue="Application.Ex_01_String_1" />
         <item itemvalue="Application.Ex_test_02" />
-        <item itemvalue="Application.Ex_13_diceTest" />
-        <item itemvalue="Application.Ex_12_dice" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +191,7 @@
       <workItem from="1691722135708" duration="16774000" />
       <workItem from="1691743623211" duration="45000" />
       <workItem from="1691743678060" duration="1000" />
-      <workItem from="1691972667798" duration="3320000" />
+      <workItem from="1691972667798" duration="5662000" />
     </task>
     <task id="LOCAL-00001" summary="변경">
       <created>1691570013449</created>
@@ -453,7 +452,28 @@
       <option name="project" value="LOCAL" />
       <updated>1691743650979</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="2단원 예제 실습">
+      <created>1691977869912</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1691977869912</updated>
+    </task>
+    <task id="LOCAL-00039" summary="equals와 == 비교">
+      <created>1691977903036</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1691977903036</updated>
+    </task>
+    <task id="LOCAL-00040" summary="문자열 비교 관련 내용">
+      <created>1691977929950</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1691977929950</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,9 +491,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="switch문 예제" />
-    <MESSAGE value="반복문 예제" />
-    <MESSAGE value="static 메서드 관련 예제" />
     <MESSAGE value="메서드 관련 예제 -&gt; 보충 필요" />
     <MESSAGE value="메서드 관련 예제" />
     <MESSAGE value="오버로딩 관련 예제" />
@@ -496,7 +513,10 @@
     <MESSAGE value="static 메서드 예제" />
     <MESSAGE value="singleton 예제" />
     <MESSAGE value="Math.random() 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="Math.random() 예제" />
+    <MESSAGE value="2단원 예제 실습" />
+    <MESSAGE value="equals와 == 비교" />
+    <MESSAGE value="문자열 비교 관련 내용" />
+    <option name="LAST_COMMIT_MESSAGE" value="문자열 비교 관련 내용" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
