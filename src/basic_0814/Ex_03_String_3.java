@@ -28,7 +28,7 @@ public class Ex_03_String_3 {
     System.out.println(s1); // 그대로
 
     System.out.println(s1.substring(4));
-    System.out.println(s1.substring(4,8));
+    System.out.println(s1.substring(4, 8));
 
     System.out.println(s1.length());
   }
