@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="10단위 간격의 히스토그램 출력 메서드 작성">
-      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_11_Array_7_class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_12_Array_8_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0814/Ex_13_Array_9.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="배열에 주소값 넣기">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0816/Ex_01_ArrayList_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0816/Ex_01_ArrayList_test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +97,33 @@
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex_11_Array_7_class">
+  <component name="RunManager" selected="Application.Ex_01_ArrayList_test">
+    <configuration name="Ex_01_ArrayList_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0816.Ex_01_ArrayList_1" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0816.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex_01_ArrayList_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0816.Ex_01_ArrayList_test" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0816.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ex_11_Array_7_class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_11_Array_7_class" />
       <module name="newProject" />
@@ -137,39 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_14_Array_12_Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_14_Array_12_Test4" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0814.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex_14_Array_13_Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_14_Array_13_Test5" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0814.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex_01_ArrayList_test" />
+        <item itemvalue="Application.Ex_01_ArrayList_1" />
         <item itemvalue="Application.Ex_11_Array_7_class" />
         <item itemvalue="Application.Ex_12_Array_8_Test" />
         <item itemvalue="Application.Ex_13_Array_9" />
-        <item itemvalue="Application.Ex_14_Array_13_Test5" />
-        <item itemvalue="Application.Ex_14_Array_12_Test4" />
       </list>
     </recent_temporary>
   </component>
@@ -193,27 +193,8 @@
       <workItem from="1691743623211" duration="45000" />
       <workItem from="1691743678060" duration="1000" />
       <workItem from="1691972667798" duration="25121000" />
-    </task>
-    <task id="LOCAL-00005" summary="switch문 예제">
-      <created>1691632222222</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1691632222222</updated>
-    </task>
-    <task id="LOCAL-00006" summary="switch문 예제">
-      <created>1691634576911</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1691634576911</updated>
-    </task>
-    <task id="LOCAL-00007" summary="반복문 예제">
-      <created>1691636987997</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1691636987997</updated>
+      <workItem from="1692002324149" duration="254000" />
+      <workItem from="1692146590486" duration="2430000" />
     </task>
     <task id="LOCAL-00008" summary="반복문 예제">
       <created>1691637654236</created>
@@ -537,7 +518,28 @@
       <option name="project" value="LOCAL" />
       <updated>1692002007734</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="1. 원의 넓이 구하는 findArea() 메서드 활용&#10;2. 원의 반지름을 증가시키는 change 함수 생성">
+      <created>1692002443164</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1692002443164</updated>
+    </task>
+    <task id="LOCAL-00055" summary="원의 반지름 변경 메서드 생성">
+      <created>1692002476094</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1692002476094</updated>
+    </task>
+    <task id="LOCAL-00056" summary="배열에 주소값 넣기">
+      <created>1692002544402</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1692002544402</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,9 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="triangle(ver.1) 예제" />
-    <MESSAGE value="회원을 모델링한 Member 클래스 생성" />
-    <MESSAGE value="print 메서드 생성" />
     <MESSAGE value="this() 사용해서 수정" />
     <MESSAGE value="연쇄적으로 사용하고 싶을 때,&#10;1. 데이터 타입을 Person 으로 지정&#10;2. return값은 this로 지정" />
     <MESSAGE value=".equalsIgnoreCase() 사용" />
@@ -580,7 +579,10 @@
     <MESSAGE value="for문 for~each문으로 변경" />
     <MESSAGE value="String 클래스에서 제공하는 문자열 조작 메서드 사용&#10;-&gt; .endsWith() / .contains() / .toLowerCase()" />
     <MESSAGE value="10단위 간격의 히스토그램 출력 메서드 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="10단위 간격의 히스토그램 출력 메서드 작성" />
+    <MESSAGE value="1. 원의 넓이 구하는 findArea() 메서드 활용&#10;2. 원의 반지름을 증가시키는 change 함수 생성" />
+    <MESSAGE value="원의 반지름 변경 메서드 생성" />
+    <MESSAGE value="배열에 주소값 넣기" />
+    <option name="LAST_COMMIT_MESSAGE" value="배열에 주소값 넣기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
