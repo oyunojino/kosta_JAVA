@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="배열에 주소값 넣기">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0816/Ex_01_ArrayList_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0816/Ex_01_ArrayList_test.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="ArrayList로 점수를 입력받아 합계 및 평균 구하기">
+      <change afterPath="$PROJECT_DIR$/src/basic_0816/Ex_02_ForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0816/Ex_03_MaxMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0816/Ex_04_Array_test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0816/Ex_05_MainArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0816/Ex_06_VarArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0816/Ex_07_Array_test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,9 +100,9 @@
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex_01_ArrayList_test">
-    <configuration name="Ex_01_ArrayList_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0816.Ex_01_ArrayList_1" />
+  <component name="RunManager" selected="Application.Ex_07_Array_test">
+    <configuration name="Ex_03_MaxMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0816.Ex_03_MaxMin" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_01_ArrayList_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0816.Ex_01_ArrayList_test" />
+    <configuration name="Ex_04_Array_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0816.Ex_04_Array_test" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -124,12 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_11_Array_7_class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_11_Array_7_class" />
+    <configuration name="Ex_05_MainArgument" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0816.Ex_05_MainArgument" />
       <module name="newProject" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;안녕!&quot; 5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0814.*" />
+          <option name="PATTERN" value="basic_0816.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_12_Array_8_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_12_Array_8_Test" />
+    <configuration name="Ex_06_VarArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0816.Ex_06_VarArgs" />
       <module name="newProject" />
+      <option name="PROGRAM_PARAMETERS" value="안녕! 5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0814.*" />
+          <option name="PATTERN" value="basic_0816.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex_13_Array_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0814.Ex_13_Array_9" />
+    <configuration name="Ex_07_Array_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0816.Ex_07_Array_test" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0814.*" />
+          <option name="PATTERN" value="basic_0816.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,13 +168,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Ex_06_VarArgs" />
+      <item itemvalue="Application.Ex_07_Array_test" />
+      <item itemvalue="Application.Ex_03_MaxMin" />
+      <item itemvalue="Application.Ex_04_Array_test" />
+      <item itemvalue="Application.Ex_05_MainArgument" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex_01_ArrayList_test" />
-        <item itemvalue="Application.Ex_01_ArrayList_1" />
-        <item itemvalue="Application.Ex_11_Array_7_class" />
-        <item itemvalue="Application.Ex_12_Array_8_Test" />
-        <item itemvalue="Application.Ex_13_Array_9" />
+        <item itemvalue="Application.Ex_07_Array_test" />
+        <item itemvalue="Application.Ex_05_MainArgument" />
+        <item itemvalue="Application.Ex_06_VarArgs" />
+        <item itemvalue="Application.Ex_04_Array_test" />
+        <item itemvalue="Application.Ex_03_MaxMin" />
       </list>
     </recent_temporary>
   </component>
@@ -194,21 +206,7 @@
       <workItem from="1691743678060" duration="1000" />
       <workItem from="1691972667798" duration="25121000" />
       <workItem from="1692002324149" duration="254000" />
-      <workItem from="1692146590486" duration="2430000" />
-    </task>
-    <task id="LOCAL-00008" summary="반복문 예제">
-      <created>1691637654236</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1691637654236</updated>
-    </task>
-    <task id="LOCAL-00009" summary="메서드 관련 예제">
-      <created>1691643586410</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1691643586410</updated>
+      <workItem from="1692146590486" duration="8902000" />
     </task>
     <task id="LOCAL-00010" summary="static 메서드 관련 예제">
       <created>1691649820255</created>
@@ -539,7 +537,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692002544402</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="ArrayList 예제">
+      <created>1692149114711</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1692149114711</updated>
+    </task>
+    <task id="LOCAL-00058" summary="ArrayList로 점수를 입력받아 합계 및 평균 구하기">
+      <created>1692149755675</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1692149755675</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,8 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="this() 사용해서 수정" />
-    <MESSAGE value="연쇄적으로 사용하고 싶을 때,&#10;1. 데이터 타입을 Person 으로 지정&#10;2. return값은 this로 지정" />
     <MESSAGE value=".equalsIgnoreCase() 사용" />
     <MESSAGE value="static 메서드 예제" />
     <MESSAGE value="singleton 예제" />
@@ -582,7 +592,9 @@
     <MESSAGE value="1. 원의 넓이 구하는 findArea() 메서드 활용&#10;2. 원의 반지름을 증가시키는 change 함수 생성" />
     <MESSAGE value="원의 반지름 변경 메서드 생성" />
     <MESSAGE value="배열에 주소값 넣기" />
-    <option name="LAST_COMMIT_MESSAGE" value="배열에 주소값 넣기" />
+    <MESSAGE value="ArrayList 예제" />
+    <MESSAGE value="ArrayList로 점수를 입력받아 합계 및 평균 구하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayList로 점수를 입력받아 합계 및 평균 구하기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
