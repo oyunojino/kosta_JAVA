@@ -1,4 +1,4 @@
-package basic_0816;
+package basic_0816.people;
 
 public class Ex_08_enum {
   public static void main(String[] args) {
@@ -16,13 +16,22 @@ public class Ex_08_enum {
     if (people.gender == Gender.MALE) System.out.println("남성입니다.");
     if (people.direction == Direction.EAST) System.out.println("남성입니다.");
 
-
     People people1 = new People();
     people1.age = 50;
     people1.gender = Gender.FEMALE;
     people1.direction = Direction.WEST;
     if (people1.gender == Gender.FEMALE) System.out.println("여성입니다.");
     if (people1.direction == Direction.WEST) System.out.println("여성입니다.");
+
+
+    System.out.println(people.gender.getGender());
+    System.out.println(people.gender.name());
+    System.out.println(people.gender.ordinal());
+    if(people.direction.compareTo(people1.direction) ==0) {
+      System.out.println("같은 방향입니다.");
+    } else {
+      System.out.println("다른 방향입니다." + people1.direction.compareTo(people.direction));
+    }
   }
 }
 

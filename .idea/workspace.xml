@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="args 활용 예제">
-      <change afterPath="$PROJECT_DIR$/src/basic_0816/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0816/Ex_08_enum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0816/Gender.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="enum 예제">
+      <change afterPath="$PROJECT_DIR$/src/basic_0816/grade/Ex_09_grade_enum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0816/grade/Ex_09_grade_if_else.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0816/grade/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0816/month/Month.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0816/people/Gender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_0816/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0816/people/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_0816/Ex_08_enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0816/people/Ex_08_enum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_0816/Gender.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,54 +103,13 @@
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex_08_enum">
-    <configuration name="Ex_04_Array_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0816.Ex_04_Array_test" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0816.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex_05_MainArgument" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0816.Ex_05_MainArgument" />
-      <module name="newProject" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;안녕!&quot; 5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0816.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex_06_VarArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0816.Ex_06_VarArgs" />
-      <module name="newProject" />
-      <option name="PROGRAM_PARAMETERS" value="안녕! 5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0816.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ex_10_month_enum">
     <configuration name="Ex_07_Array_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic_0816.Ex_07_Array_test" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0816.*" />
+          <option name="PATTERN" value="basic_0816.people.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +118,50 @@
       </method>
     </configuration>
     <configuration name="Ex_08_enum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0816.Ex_08_enum" />
+      <option name="MAIN_CLASS_NAME" value="basic_0816.people.Ex_08_enum" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0816.*" />
+          <option name="PATTERN" value="basic_0816.people.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex_09_grade_enum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0816.grade.Ex_09_grade_enum" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0816.grade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex_09_grade_if_else" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0816.grade.Ex_09_grade_if_else" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0816.people.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex_10_month_enum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0816.month.Ex_10_month_enum" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0816.month.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,18 +171,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Ex_08_enum" />
-      <item itemvalue="Application.Ex_06_VarArgs" />
+      <item itemvalue="Application.Ex_09_grade_enum" />
+      <item itemvalue="Application.Ex_09_grade_if_else" />
+      <item itemvalue="Application.Ex_10_month_enum" />
       <item itemvalue="Application.Ex_07_Array_test" />
-      <item itemvalue="Application.Ex_04_Array_test" />
-      <item itemvalue="Application.Ex_05_MainArgument" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex_10_month_enum" />
+        <item itemvalue="Application.Ex_09_grade_enum" />
+        <item itemvalue="Application.Ex_09_grade_if_else" />
         <item itemvalue="Application.Ex_08_enum" />
         <item itemvalue="Application.Ex_07_Array_test" />
-        <item itemvalue="Application.Ex_05_MainArgument" />
-        <item itemvalue="Application.Ex_06_VarArgs" />
-        <item itemvalue="Application.Ex_04_Array_test" />
       </list>
     </recent_temporary>
   </component>
@@ -204,14 +207,7 @@
       <workItem from="1691743678060" duration="1000" />
       <workItem from="1691972667798" duration="25121000" />
       <workItem from="1692002324149" duration="254000" />
-      <workItem from="1692146590486" duration="10323000" />
-    </task>
-    <task id="LOCAL-00012" summary="메서드 관련 예제">
-      <created>1691653212031</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1691653212031</updated>
+      <workItem from="1692146590486" duration="14173000" />
     </task>
     <task id="LOCAL-00013" summary="오버로딩 관련 예제">
       <created>1691653231394</created>
@@ -549,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692155661246</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="enum 예제">
+      <created>1692157579877</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1692157579877</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="singleton 예제" />
     <MESSAGE value="Math.random() 예제" />
     <MESSAGE value="2단원 예제 실습" />
     <MESSAGE value="equals와 == 비교" />
@@ -592,7 +594,8 @@
     <MESSAGE value="ArrayList로 점수를 입력받아 합계 및 평균 구하기" />
     <MESSAGE value="." />
     <MESSAGE value="args 활용 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="args 활용 예제" />
+    <MESSAGE value="enum 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="enum 예제" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
