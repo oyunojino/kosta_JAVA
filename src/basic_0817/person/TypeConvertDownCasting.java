@@ -9,6 +9,7 @@ public class TypeConvertDownCasting {
 
         Student s = new Student();
         Person p = new Person();
+        Worker w = new Worker();
 
         System.out.println("s instanceof Student => " + (s instanceof Student));
         System.out.println("s instanceof Person => " + (s instanceof Person));
@@ -19,6 +20,9 @@ public class TypeConvertDownCasting {
         downCast(p);
         System.out.println("---------------");
         downCast(s);
+        downCast(w);
+//        downCast("hello");
+        downCast(new Person());
     }
 
     static void downCast(Person p) {
@@ -26,7 +30,12 @@ public class TypeConvertDownCasting {
         if (p instanceof Student) {
             Student s = (Student) p;
             s.work();
-            s.whoAmI();
+        } else if (p instanceof Worker) {
+//            ((Worker) p).work();
+            Worker w = (Worker) p;
+            w.work();
+        } else {
+            
         }
     }
 
