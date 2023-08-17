@@ -15,6 +15,10 @@ public class Phone {
 class Telephone extends Phone {
     private String when;
 
+    public Telephone(String owner) {
+        super(owner);
+    }
+
     public Telephone(String owner, String when) {
         super(owner);
         this.when = when;
@@ -28,8 +32,8 @@ class Telephone extends Phone {
 class Smartphone extends Telephone {
     private String game;
 
-    public Smartphone(String owner, String when) {
-        super(owner, when);
+     public Smartphone(String owner, String game) {
+        super(owner);
         this.game = game;
     }
 

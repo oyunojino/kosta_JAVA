@@ -10,12 +10,13 @@ public class PhoneTest {
         };
 
         for (Phone phone : phones) {
-            if (phone instanceof Phone) {
-                phone.talk();
+//            범위가 가장 작은 것부터
+            if (phone instanceof Smartphone) {
+                ((Smartphone) phone).playGame();
             } else if (phone instanceof Telephone) {
                 ((Telephone) phone).autoAnswering();
-            } else if (phone instanceof Smartphone) {
-                ((Smartphone) phone).playGame();
+            } else {
+                phone.talk();
             }
         }
     }
