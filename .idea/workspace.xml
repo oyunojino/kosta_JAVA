@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/basic_0818/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0818/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0818/MemberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0818/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0818/PrinterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0818/ShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0818/ShopTest.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="예시 추가">
+      <change afterPath="$PROJECT_DIR$/src/basic_0818/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0818/BankApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0818/TireTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,39 +106,14 @@
       <recent name="basic_0817" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basic_0818" />
       <recent name="basic_0811" />
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShopTest">
-    <configuration name="Ex_04_abstract_method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0817.Ex_04_abstract_method" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0817.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex_06_abstract_class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0817.Ex_06_abstract_class" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0817.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0818.MemberTest" />
+  <component name="RunManager" selected="Application.TireTest">
+    <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0818.AccountTest" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -154,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrinterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0818.PrinterTest" />
+    <configuration name="BankApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0818.BankApplication" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -180,20 +151,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TireTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0818.TireTest" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0818.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TireTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0818.TireTest" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0818.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MemberTest" />
-      <item itemvalue="Application.PrinterTest" />
+      <item itemvalue="Application.AccountTest" />
+      <item itemvalue="Application.BankApplication" />
       <item itemvalue="Application.ShopTest" />
-      <item itemvalue="Application.Ex_04_abstract_method" />
-      <item itemvalue="Application.Ex_06_abstract_class" />
+      <item itemvalue="Application.TireTest" />
+      <item itemvalue="Application.TireTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TireTest" />
+        <item itemvalue="Application.TireTest (1)" />
+        <item itemvalue="Application.BankApplication" />
+        <item itemvalue="Application.AccountTest" />
         <item itemvalue="Application.ShopTest" />
-        <item itemvalue="Application.PrinterTest" />
-        <item itemvalue="Application.MemberTest" />
-        <item itemvalue="Application.Ex_06_abstract_class" />
-        <item itemvalue="Application.Ex_04_abstract_method" />
       </list>
     </recent_temporary>
   </component>
@@ -563,7 +560,7 @@
       <option name="project" value="LOCAL" />
       <updated>1692165849871</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,11 +578,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="생성자명 변경 및 오류 수정" />
-    <MESSAGE value="파일 삭제" />
-    <MESSAGE value="문자열에 포함된 문자의 개수를 반환하는 메서드 구현" />
-    <MESSAGE value="for문 for~each문으로 변경" />
-    <MESSAGE value="String 클래스에서 제공하는 문자열 조작 메서드 사용&#10;-&gt; .endsWith() / .contains() / .toLowerCase()" />
     <MESSAGE value="10단위 간격의 히스토그램 출력 메서드 작성" />
     <MESSAGE value="1. 원의 넓이 구하는 findArea() 메서드 활용&#10;2. 원의 반지름을 증가시키는 change 함수 생성" />
     <MESSAGE value="원의 반지름 변경 메서드 생성" />
@@ -606,7 +598,12 @@
     <MESSAGE value="abstract 예제" />
     <MESSAGE value="interface 예제" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Member 관련 예제" />
+    <MESSAGE value="Printer 관련 예제" />
+    <MESSAGE value="Shop 관련 예제" />
+    <MESSAGE value="Account 관련 예제" />
+    <MESSAGE value="예시 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="예시 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
