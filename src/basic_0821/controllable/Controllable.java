@@ -17,6 +17,8 @@ public interface Controllable {
     }
 
     static void reset() {
+//        # static이 아니기 때문에 쓸 수 없음
+//        show();
         System.out.println("장비를 초기화한다.");
     }
 
