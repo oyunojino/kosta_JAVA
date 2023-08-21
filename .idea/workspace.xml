@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/basic_0821/coin/Coin1Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0821/coin/Coin2Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0821/controllable/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0821/controllable/Controllable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0821/controllable/ControllableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0821/controllable/Notebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0821/controllable/Portable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0821/controllable/RemoteControllable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0821/controllable/TV.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="인터페이스를 이용한 다형성 예제">
+      <change afterPath="$PROJECT_DIR$/src/basic_0821/animal/AnimalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0821/car/VehicleDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0821/move/MoveableDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_0821/controllable/ControllableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0821/controllable/ControllableDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,26 +112,13 @@
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ControllableDemo">
-    <configuration name="Coin1Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0821.coin.Coin1Demo" />
+  <component name="RunManager" selected="Application.VehicleDemo">
+    <configuration name="AnimalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0821.animal.AnimalDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0821.coin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Coin2Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0821.coin.Coin2Demo" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0821.coin.*" />
+          <option name="PATTERN" value="basic_0821.animal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0818.DatabaseTest" />
+    <configuration name="MoveableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0821.move.MoveableDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0818.*" />
+          <option name="PATTERN" value="basic_0821.move.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +152,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0818.InterfaceTest" />
+    <configuration name="VehicleDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0821.car.VehicleDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0818.*" />
+          <option name="PATTERN" value="basic_0821.car.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0821.car.VehicleDemo" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0821.car.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,19 +179,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Coin1Demo" />
-      <item itemvalue="Application.Coin2Demo" />
+      <item itemvalue="Application.AnimalDemo" />
       <item itemvalue="Application.ControllableDemo" />
-      <item itemvalue="Application.DatabaseTest" />
-      <item itemvalue="Application.InterfaceTest" />
+      <item itemvalue="Application.MoveableDemo" />
+      <item itemvalue="Application.VehicleDemo" />
+      <item itemvalue="Application.VehicleDemo (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VehicleDemo" />
+        <item itemvalue="Application.VehicleDemo (1)" />
+        <item itemvalue="Application.MoveableDemo" />
+        <item itemvalue="Application.AnimalDemo" />
         <item itemvalue="Application.ControllableDemo" />
-        <item itemvalue="Application.Coin1Demo" />
-        <item itemvalue="Application.Coin2Demo" />
-        <item itemvalue="Application.DatabaseTest" />
-        <item itemvalue="Application.InterfaceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -566,7 +561,7 @@
       <option name="project" value="LOCAL" />
       <updated>1692165849871</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,8 +579,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="원의 반지름 변경 메서드 생성" />
-    <MESSAGE value="배열에 주소값 넣기" />
     <MESSAGE value="ArrayList 예제" />
     <MESSAGE value="ArrayList로 점수를 입력받아 합계 및 평균 구하기" />
     <MESSAGE value="args 활용 예제" />
@@ -609,7 +602,9 @@
     <MESSAGE value="복습 예제 - bank" />
     <MESSAGE value="interface 관련 내용" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="인터페이스 상속 예제" />
+    <MESSAGE value="인터페이스를 이용한 다형성 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="인터페이스를 이용한 다형성 예제" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
