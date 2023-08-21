@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="예시 추가">
-      <change afterPath="$PROJECT_DIR$/src/basic_0818/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0818/BankApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0818/TireTest.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/basic_0821/coin/Coin1Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0821/coin/Coin2Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0821/controllable/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0821/controllable/Controllable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0821/controllable/ControllableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0821/controllable/Notebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0821/controllable/Portable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0821/controllable/RemoteControllable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0821/controllable/TV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +51,6 @@
     }
   ],
   &quot;lastFilter&quot;: {
-    &quot;assignee&quot;: &quot;oyunojino&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">
@@ -65,9 +70,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2Tj9j85dM8mEgkhhf8bhbfXQ85o" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -84,7 +89,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/code_kosta/KOSTA_newProject/newProject/src/basic_0811/Circle&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/code/KOSTA_JAVA/src/basic_0818&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -98,6 +103,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\code\KOSTA_JAVA\src\basic_0818" />
       <recent name="C:\code_kosta\KOSTA_newProject\newProject\src\basic_0811\Circle" />
       <recent name="C:\code_kosta\KOSTA_newProject\newProject\src\basic_0811\triangle" />
       <recent name="C:\code_kosta\KOSTA_newProject\newProject\src\basic_0811\triangle2" />
@@ -111,9 +117,48 @@
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TireTest">
-    <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0818.AccountTest" />
+  <component name="RunManager" selected="Application.ControllableDemo">
+    <configuration name="Coin1Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0821.coin.Coin1Demo" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0821.coin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Coin2Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0821.coin.Coin2Demo" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0821.coin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0821.controllable.ControllableDemo" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0821.controllable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0818.DatabaseTest" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -125,47 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0818.BankApplication" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0818.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShopTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0818.ShopTest" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0818.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TireTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0818.TireTest" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0818.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TireTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0818.TireTest" />
+    <configuration name="InterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0818.InterfaceTest" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -178,19 +184,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AccountTest" />
-      <item itemvalue="Application.BankApplication" />
-      <item itemvalue="Application.ShopTest" />
-      <item itemvalue="Application.TireTest" />
-      <item itemvalue="Application.TireTest (1)" />
+      <item itemvalue="Application.Coin1Demo" />
+      <item itemvalue="Application.Coin2Demo" />
+      <item itemvalue="Application.ControllableDemo" />
+      <item itemvalue="Application.DatabaseTest" />
+      <item itemvalue="Application.InterfaceTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TireTest" />
-        <item itemvalue="Application.TireTest (1)" />
-        <item itemvalue="Application.BankApplication" />
-        <item itemvalue="Application.AccountTest" />
-        <item itemvalue="Application.ShopTest" />
+        <item itemvalue="Application.ControllableDemo" />
+        <item itemvalue="Application.Coin1Demo" />
+        <item itemvalue="Application.Coin2Demo" />
+        <item itemvalue="Application.DatabaseTest" />
+        <item itemvalue="Application.InterfaceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -560,7 +566,7 @@
       <option name="project" value="LOCAL" />
       <updated>1692165849871</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,8 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10단위 간격의 히스토그램 출력 메서드 작성" />
-    <MESSAGE value="1. 원의 넓이 구하는 findArea() 메서드 활용&#10;2. 원의 반지름을 증가시키는 change 함수 생성" />
     <MESSAGE value="원의 반지름 변경 메서드 생성" />
     <MESSAGE value="배열에 주소값 넣기" />
     <MESSAGE value="ArrayList 예제" />
@@ -597,13 +601,15 @@
     <MESSAGE value="다형성 예제" />
     <MESSAGE value="abstract 예제" />
     <MESSAGE value="interface 예제" />
-    <MESSAGE value="." />
     <MESSAGE value="Member 관련 예제" />
     <MESSAGE value="Printer 관련 예제" />
     <MESSAGE value="Shop 관련 예제" />
     <MESSAGE value="Account 관련 예제" />
     <MESSAGE value="예시 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="예시 추가" />
+    <MESSAGE value="복습 예제 - bank" />
+    <MESSAGE value="interface 관련 내용" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
