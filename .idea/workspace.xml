@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="Object클래스와 Class 클래스 관련 예제 -&gt; .getName()">
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="StringBuilder관련 예제">
+      <change afterPath="$PROJECT_DIR$/src/basic_0822/GarbageDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0822/SystemDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic_0822/StringBuilderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0822/StringBuilderDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,9 +114,9 @@
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringBuilderDemo">
-    <configuration name="HumanTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0822.HumanTest" />
+  <component name="RunManager" selected="Application.GarbageDemo (1)">
+    <configuration name="GarbageDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0822.GarbageDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectMethodDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0822.ObjectMethodDemo" />
+    <configuration name="GarbageDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0822.GarbageDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -141,19 +142,6 @@
       </method>
     </configuration>
     <configuration name="ObjectMethodDemo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0822.ObjectMethodDemo" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0822.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObjectMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic_0822.ObjectMethodDemo" />
       <module name="newProject" />
       <extension name="coverage">
@@ -179,19 +167,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0822.SystemDemo" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0822.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.HumanTest (1)" />
-      <item itemvalue="Application.ObjectMethodDemo" />
-      <item itemvalue="Application.ObjectMethodDemo (2)" />
+      <item itemvalue="Application.GarbageDemo" />
+      <item itemvalue="Application.GarbageDemo (1)" />
       <item itemvalue="Application.ObjectMethodDemo (3)" />
       <item itemvalue="Application.StringBuilderDemo" />
+      <item itemvalue="Application.SystemDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GarbageDemo (1)" />
+        <item itemvalue="Application.GarbageDemo" />
+        <item itemvalue="Application.SystemDemo" />
         <item itemvalue="Application.StringBuilderDemo" />
         <item itemvalue="Application.ObjectMethodDemo (3)" />
-        <item itemvalue="Application.ObjectMethodDemo" />
-        <item itemvalue="Application.HumanTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -561,7 +563,7 @@
       <option name="project" value="LOCAL" />
       <updated>1692165849871</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,13 +581,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Printer 관련 예제" />
     <MESSAGE value="Shop 관련 예제" />
     <MESSAGE value="Account 관련 예제" />
     <MESSAGE value="예시 추가" />
     <MESSAGE value="복습 예제 - bank" />
     <MESSAGE value="interface 관련 내용" />
-    <MESSAGE value="." />
     <MESSAGE value="인터페이스 상속 예제" />
     <MESSAGE value="인터페이스를 이용한 다형성 예제" />
     <MESSAGE value="static 메서드 관련 주석 추가" />
@@ -604,7 +604,9 @@
     <MESSAGE value="프로그래밍 문제 6 주석 추가&#10;-&gt; 07.인터페이스와 특수클래스" />
     <MESSAGE value="String과 StringBuilder 객체의 차이점" />
     <MESSAGE value="Object클래스와 Class 클래스 관련 예제 -&gt; .getName()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object클래스와 Class 클래스 관련 예제 -&gt; .getName()" />
+    <MESSAGE value="." />
+    <MESSAGE value="StringBuilder관련 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringBuilder관련 예제" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
