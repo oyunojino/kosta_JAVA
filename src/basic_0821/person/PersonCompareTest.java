@@ -17,7 +17,7 @@ public class PersonCompareTest {
         }
 
 //        Arrays.sort(persons);
-        Arrays.sort(persons, Collections.reverseOrder());
+        Arrays.sort(persons, Collections.reverseOrder()); // 역순
 
         System.out.println("정렬 후");
         for (Person person : persons) {
@@ -31,7 +31,7 @@ public class PersonCompareTest {
 
     }
 }
-
+// Comparable => <Object>가 기본임
 class Person implements Comparable<Person> {
     String name;
     int age;
@@ -54,7 +54,7 @@ class Person implements Comparable<Person> {
     //    메서드
     @Override
     public String toString() {
-        return "사람[" +
+        return "Person[" +
                 "이름='" + name + '\'' +
                 ", 나이=" + age +
                 ", 키=" + height +
