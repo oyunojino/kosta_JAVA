@@ -17,31 +17,41 @@ public class ControllerTest {
 abstract class Controller {
     boolean power;
 
+    public Controller(boolean power) {
+        this.power = power;
+    }
+
     void show() {
-        System.out.println(getName() + "가 꺼졌습니다.");
+        if (power) {
+            System.out.println(this.getName() + "가 켜졌습니다.");
+        } else {
+            System.out.println(this.getName() + "가 꺼졌습니다.");
+        }
     }
 
     abstract String getName();
 }
 
 class TV2 extends Controller {
+    public TV2(boolean power) {
+        super(power);
+    }
+
     @Override
     public String getName() {
         return "TV";
     }
 
-    public TV2(boolean result) {
-
-    }
 }
 
 class Radio2 extends Controller {
+    public Radio2(boolean power) {
+        super(power);
+    }
+
     @Override
     public String getName() {
         return "Radio";
     }
 
-    public Radio2(boolean result) {
-
-    }
 }

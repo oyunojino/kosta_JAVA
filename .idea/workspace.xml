@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="주석 추가">
-      <change afterPath="$PROJECT_DIR$/src/basic_0822/ControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0822/TalkableTest.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="프로그래밍 문제 5 풀이&#10;-&gt; 07.인터페이스와 특수클래스">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_0822/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0822/ControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,8 +113,8 @@
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ControllerTest">
-    <configuration name="ControllerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ControllerTest (1)">
+    <configuration name="ControllerTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic_0822.ControllerTest" />
       <module name="newProject" />
       <extension name="coverage">
@@ -128,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonCompareTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0821.person.PersonCompareTest" />
+    <configuration name="ControllerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0822.ControllerTest" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0821.person.*" />
+          <option name="PATTERN" value="basic_0822.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,18 +181,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ControllerTest" />
+      <item itemvalue="Application.ControllerTest (1)" />
       <item itemvalue="Application.PersonCompareTest (3)" />
       <item itemvalue="Application.TalkableTest" />
       <item itemvalue="Application.PersonCompareTest" />
-      <item itemvalue="Application.PersonCompareTest (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ControllerTest (1)" />
         <item itemvalue="Application.ControllerTest" />
         <item itemvalue="Application.TalkableTest" />
         <item itemvalue="Application.PersonCompareTest (3)" />
         <item itemvalue="Application.PersonCompareTest" />
-        <item itemvalue="Application.PersonCompareTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -563,7 +562,7 @@
       <option name="project" value="LOCAL" />
       <updated>1692165849871</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,8 +580,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="타입 자동 변환 test_2" />
-    <MESSAGE value="타입 자동 변환 test_2 수정" />
     <MESSAGE value="타입 자동 변환 예제 수정" />
     <MESSAGE value="다형성 예제" />
     <MESSAGE value="abstract 예제" />
@@ -606,7 +603,9 @@
     <MESSAGE value="객체 sort() 관련 예제&#10;-&gt; Comparable&lt;T&gt;" />
     <MESSAGE value="Person을 나이를 기준으로 sort&#10;1. compareTo의 리턴값 변형-&gt; person.age - this.age&#10;2. Arrays.sort 후 순서를 뒤집는 메서드 활용 -&gt; Arrays.sort(persons, Collections.reverseOrder());" />
     <MESSAGE value="주석 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="주석 추가" />
+    <MESSAGE value="프로그래밍 문제 4 풀이&#10;-&gt; 07.인터페이스와 특수클래스" />
+    <MESSAGE value="프로그래밍 문제 5 풀이&#10;-&gt; 07.인터페이스와 특수클래스" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래밍 문제 5 풀이&#10;-&gt; 07.인터페이스와 특수클래스" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
