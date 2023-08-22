@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="프로그래밍 문제 5 오류 수정&#10;-&gt; 07.인터페이스와 특수클래스">
-      <change afterPath="$PROJECT_DIR$/src/basic_0822/HumanTest.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="프로그래밍 문제 6 풀이&#10;-&gt; 07.인터페이스와 특수클래스">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_0822/HumanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0822/HumanTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +113,7 @@
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HumanTest (1)">
+  <component name="RunManager" selected="Application.HumanTest (2)">
     <configuration name="ControllerTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic_0822.ControllerTest" />
       <module name="newProject" />
@@ -153,7 +153,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HumanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HumanTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic_0822.HumanTest" />
       <module name="newProject" />
       <extension name="coverage">
@@ -166,8 +166,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TalkableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0822.TalkableTest" />
+    <configuration name="HumanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0822.HumanTest" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -184,15 +184,15 @@
       <item itemvalue="Application.ControllerTest (1)" />
       <item itemvalue="Application.HumanTest" />
       <item itemvalue="Application.HumanTest (1)" />
-      <item itemvalue="Application.TalkableTest" />
+      <item itemvalue="Application.HumanTest (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HumanTest (2)" />
         <item itemvalue="Application.HumanTest (1)" />
         <item itemvalue="Application.HumanTest" />
         <item itemvalue="Application.ControllerTest (1)" />
         <item itemvalue="Application.ControllerTest" />
-        <item itemvalue="Application.TalkableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -562,7 +562,7 @@
       <option name="project" value="LOCAL" />
       <updated>1692165849871</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,7 +580,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="다형성 예제" />
     <MESSAGE value="abstract 예제" />
     <MESSAGE value="interface 예제" />
     <MESSAGE value="Member 관련 예제" />
@@ -605,7 +604,8 @@
     <MESSAGE value="프로그래밍 문제 4 풀이&#10;-&gt; 07.인터페이스와 특수클래스" />
     <MESSAGE value="프로그래밍 문제 5 풀이&#10;-&gt; 07.인터페이스와 특수클래스" />
     <MESSAGE value="프로그래밍 문제 5 오류 수정&#10;-&gt; 07.인터페이스와 특수클래스" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로그래밍 문제 5 오류 수정&#10;-&gt; 07.인터페이스와 특수클래스" />
+    <MESSAGE value="프로그래밍 문제 6 풀이&#10;-&gt; 07.인터페이스와 특수클래스" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래밍 문제 6 풀이&#10;-&gt; 07.인터페이스와 특수클래스" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
