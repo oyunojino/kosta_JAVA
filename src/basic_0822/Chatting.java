@@ -10,6 +10,7 @@ public class Chatting {
     }
 
     void startChat(String chatId) {
+//        # 이것이 자바다 (p.404)
 //        참조 변수 선언이 되어있기 때문에 nickName 값을 변경할 수 없음
 //        String nickName = null;
 //        nickName = nickName + chatId;
