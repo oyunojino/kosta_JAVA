@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="Wrapper 예제">
-      <change afterPath="$PROJECT_DIR$/src/basic_0822/ActionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0822/AnonymousExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0822/CarExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0822/Chatting.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="9장 예제 풀이">
+      <change afterPath="$PROJECT_DIR$/src/basic_0823/CalenderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0823/DiceRandomDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0823/SimpleDateFormatDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0823/StringTokenizerDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_0822/Chatting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0822/Chatting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_0822/SystemDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0822/SystemDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +94,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -116,13 +118,13 @@
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArraysDemo">
-    <configuration name="ActionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0822.ActionExample" />
+  <component name="RunManager" selected="Application.SimpleDateFormatDemo">
+    <configuration name="CalenderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0823.CalenderDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0822.*" />
+          <option name="PATTERN" value="basic_0823.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnonymousExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0822.AnonymousExample" />
+    <configuration name="DiceRandomDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0823.DiceRandomDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0822.*" />
+          <option name="PATTERN" value="basic_0823.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0822.ArraysDemo" />
+    <configuration name="SimpleDateFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0823.SimpleDateFormatDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0822.*" />
+          <option name="PATTERN" value="basic_0823.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0822.CarExample" />
+    <configuration name="StringTokenizerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0823.StringTokenizerDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0822.*" />
+          <option name="PATTERN" value="basic_0823.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,8 +171,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0822.WrapperDemo" />
+    <configuration name="SystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0822.SystemDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -183,19 +185,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ActionExample" />
-      <item itemvalue="Application.AnonymousExample" />
-      <item itemvalue="Application.ArraysDemo" />
-      <item itemvalue="Application.CarExample" />
-      <item itemvalue="Application.WrapperDemo" />
+      <item itemvalue="Application.CalenderDemo" />
+      <item itemvalue="Application.DiceRandomDemo" />
+      <item itemvalue="Application.SimpleDateFormatDemo" />
+      <item itemvalue="Application.StringTokenizerDemo" />
+      <item itemvalue="Application.SystemDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArraysDemo" />
-        <item itemvalue="Application.CarExample" />
-        <item itemvalue="Application.AnonymousExample" />
-        <item itemvalue="Application.ActionExample" />
-        <item itemvalue="Application.WrapperDemo" />
+        <item itemvalue="Application.SimpleDateFormatDemo" />
+        <item itemvalue="Application.DiceRandomDemo" />
+        <item itemvalue="Application.StringTokenizerDemo" />
+        <item itemvalue="Application.CalenderDemo" />
+        <item itemvalue="Application.SystemDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -565,7 +567,7 @@
       <option name="project" value="LOCAL" />
       <updated>1692165849871</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="interface 관련 내용" />
     <MESSAGE value="인터페이스 상속 예제" />
     <MESSAGE value="인터페이스를 이용한 다형성 예제" />
     <MESSAGE value="static 메서드 관련 주석 추가" />
@@ -608,7 +609,8 @@
     <MESSAGE value="System 예제" />
     <MESSAGE value="Arrays 예제" />
     <MESSAGE value="Wrapper 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrapper 예제" />
+    <MESSAGE value="9장 예제 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="9장 예제 풀이" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
