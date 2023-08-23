@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="9장 예제 풀이">
-      <change afterPath="$PROJECT_DIR$/src/basic_0823/CalenderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0823/DiceRandomDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0823/SimpleDateFormatDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0823/StringTokenizerDemo.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="java.util.StringTokenizer 실습">
+      <change afterPath="$PROJECT_DIR$/src/basic_0823/CheckedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0823/ExceptionHandlingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0823/GenericClass1Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0823/GenericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0823/ThrowExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0823/ThrowsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0823/Unchecked1Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0823/Unchecked2Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic_0822/Chatting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0822/Chatting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic_0822/SystemDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0822/SystemDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,9 +120,9 @@
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleDateFormatDemo">
-    <configuration name="CalenderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0823.CalenderDemo" />
+  <component name="RunManager" selected="Application.GenericTest">
+    <configuration name="CheckedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0823.CheckedDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiceRandomDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0823.DiceRandomDemo" />
+    <configuration name="ExceptionHandlingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0823.ExceptionHandlingDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -145,8 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleDateFormatDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0823.SimpleDateFormatDemo" />
+    <configuration name="GenericClass1Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0823.GenericClass1Demo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +160,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTokenizerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0823.StringTokenizerDemo" />
+    <configuration name="GenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0823.GenericTest" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -171,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0822.SystemDemo" />
+    <configuration name="ThrowsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0823.ThrowsDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0822.*" />
+          <option name="PATTERN" value="basic_0823.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,19 +187,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CalenderDemo" />
-      <item itemvalue="Application.DiceRandomDemo" />
-      <item itemvalue="Application.SimpleDateFormatDemo" />
-      <item itemvalue="Application.StringTokenizerDemo" />
-      <item itemvalue="Application.SystemDemo" />
+      <item itemvalue="Application.CheckedDemo" />
+      <item itemvalue="Application.ExceptionHandlingDemo" />
+      <item itemvalue="Application.GenericClass1Demo" />
+      <item itemvalue="Application.GenericTest" />
+      <item itemvalue="Application.ThrowsDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleDateFormatDemo" />
-        <item itemvalue="Application.DiceRandomDemo" />
-        <item itemvalue="Application.StringTokenizerDemo" />
-        <item itemvalue="Application.CalenderDemo" />
-        <item itemvalue="Application.SystemDemo" />
+        <item itemvalue="Application.GenericTest" />
+        <item itemvalue="Application.GenericClass1Demo" />
+        <item itemvalue="Application.ThrowsDemo" />
+        <item itemvalue="Application.ExceptionHandlingDemo" />
+        <item itemvalue="Application.CheckedDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -567,7 +569,7 @@
       <option name="project" value="LOCAL" />
       <updated>1692165849871</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,12 +587,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="인터페이스 상속 예제" />
-    <MESSAGE value="인터페이스를 이용한 다형성 예제" />
-    <MESSAGE value="static 메서드 관련 주석 추가" />
-    <MESSAGE value="의존성 주입 관련 예제" />
-    <MESSAGE value="중첩 클래스 관련 예제" />
-    <MESSAGE value="익명 클래스 관련 예제" />
     <MESSAGE value="abstract 예제 수정 필요" />
     <MESSAGE value="익명 함수 관련 예제" />
     <MESSAGE value="객체 sort() 관련 예제&#10;-&gt; Comparable&lt;T&gt;" />
@@ -610,7 +606,13 @@
     <MESSAGE value="Arrays 예제" />
     <MESSAGE value="Wrapper 예제" />
     <MESSAGE value="9장 예제 풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="9장 예제 풀이" />
+    <MESSAGE value="이것이 자바다(P.404) 참고" />
+    <MESSAGE value="java.util.Date 실습" />
+    <MESSAGE value="java.util.Calender 실습" />
+    <MESSAGE value="java.util.Random 실습" />
+    <MESSAGE value="java.text.Format 실습" />
+    <MESSAGE value="java.util.StringTokenizer 실습" />
+    <option name="LAST_COMMIT_MESSAGE" value="java.util.StringTokenizer 실습" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
