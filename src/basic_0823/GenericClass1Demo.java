@@ -14,14 +14,17 @@ public class GenericClass1Demo {
     // get(데이터형 확인 O), set(데이터형 확인 X)
     Cup c = new Cup();
     c.setBeverage(new Boricha());
-    if(c.getBeverage() instanceof Boricha){
+    if (c.getBeverage() instanceof Boricha) {
       Boricha boricha = (Boricha) c.getBeverage();
-    } else if (c.getBeverage() instanceof Beer){
-      Beer beer= (Beer) c.getBeverage();
+    } else if (c.getBeverage() instanceof Beer) {
+      Beer beer = (Beer) c.getBeverage();
     }
 
     c.setBeverage(new Beer());
-    Beer beer= (Beer) c.getBeverage();
+//    Beer beer= (Beer) c.getBeverage();
+    Boricha bofi = (Boricha) c.getBeverage();
+
+
     c.setBeverage(new Beverage());
     c.setBeverage(new Object());
     //beer= (Beer) c.getBeverage();
@@ -34,22 +37,27 @@ public class GenericClass1Demo {
     Cup<Beer> beerCup = new Cup<>();
     beerCup.setBeverage(new Beer());
     //beerCup.setBeverage(new Boricha());
-    beer = beerCup.getBeverage();
+//    beer = beerCup.getBeverage();
   }
 }
 
 class Beverage {
-
 }
 
 class Boricha extends Beverage {
-
+  void drink() {
+    System.out.println("어린이만 마실 수 있다.");
+  }
 }
 
 class Beer extends Beverage {
-
+  void cheers() {
+    System.out.println("어른들만 마실 수 있다.");
+  }
 }
 
+// # 데이터형 관련 오류를 미리 방지할 수 있음
+//class Cup<T extends Beverage> {
 class Cup<T> {
   private T beverage;
 
