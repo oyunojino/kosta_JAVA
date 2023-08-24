@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="제네릭 메서드 예제">
-      <change afterPath="$PROJECT_DIR$/src/basic_0824/ArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0824/IteratorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0824/ListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0824/PerformanceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0824/StackDemo.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="Collection 내용 예제">
+      <change afterPath="$PROJECT_DIR$/src/basic_0824/HashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0824/QueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0824/QueueDemo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic_0823/GenericClass1Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0823/GenericClass1Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_0824/PerformanceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0824/PerformanceDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,41 +111,16 @@
       <recent name="basic_0817" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basic_0824" />
       <recent name="basic_0821.bird" />
       <recent name="basic_0818" />
       <recent name="basic_0811" />
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PerformanceDemo">
-    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0824.ArrayListDemo" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0824.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0824.ListDemo" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0824.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0824.ListDemo" />
+  <component name="RunManager" selected="Application.HashSetDemo">
+    <configuration name="HashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0824.HashSetDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -161,6 +134,32 @@
     </configuration>
     <configuration name="PerformanceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic_0824.PerformanceDemo" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0824.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0824.QueueDemo" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0824.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0824.QueueDemo1" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
@@ -186,19 +185,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayListDemo" />
-      <item itemvalue="Application.ListDemo" />
-      <item itemvalue="Application.ListDemo (2)" />
+      <item itemvalue="Application.HashSetDemo" />
       <item itemvalue="Application.PerformanceDemo" />
+      <item itemvalue="Application.QueueDemo" />
+      <item itemvalue="Application.QueueDemo1" />
       <item itemvalue="Application.StackDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashSetDemo" />
+        <item itemvalue="Application.QueueDemo1" />
+        <item itemvalue="Application.QueueDemo" />
         <item itemvalue="Application.PerformanceDemo" />
         <item itemvalue="Application.StackDemo" />
-        <item itemvalue="Application.ArrayListDemo" />
-        <item itemvalue="Application.ListDemo" />
-        <item itemvalue="Application.ListDemo (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -568,7 +567,7 @@
       <option name="project" value="LOCAL" />
       <updated>1692165849871</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,8 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="프로그래밍 문제 6 풀이&#10;-&gt; 07.인터페이스와 특수클래스" />
-    <MESSAGE value="프로그래밍 문제 6 주석 추가&#10;-&gt; 07.인터페이스와 특수클래스" />
     <MESSAGE value="String과 StringBuilder 객체의 차이점" />
     <MESSAGE value="Object클래스와 Class 클래스 관련 예제 -&gt; .getName()" />
     <MESSAGE value="." />
@@ -611,7 +608,9 @@
     <MESSAGE value="제네릭 사용 시 변경사항 작성" />
     <MESSAGE value="제네릭 형식으로 변경" />
     <MESSAGE value="제네릭 메서드 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="제네릭 메서드 예제" />
+    <MESSAGE value="제네릭 메서드 내용 추가" />
+    <MESSAGE value="Collection 내용 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection 내용 예제" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
