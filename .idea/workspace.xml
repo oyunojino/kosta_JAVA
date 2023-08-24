@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="Collection 내용 예제">
-      <change afterPath="$PROJECT_DIR$/src/basic_0824/HashSetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0824/QueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0824/QueueDemo1.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="Collection(Set) 내용 예제">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic_0824/PerformanceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0824/PerformanceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_0824/HashSetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0824/HashSetDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -567,7 +564,7 @@
       <option name="project" value="LOCAL" />
       <updated>1692165849871</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,9 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="String과 StringBuilder 객체의 차이점" />
-    <MESSAGE value="Object클래스와 Class 클래스 관련 예제 -&gt; .getName()" />
-    <MESSAGE value="." />
     <MESSAGE value="StringBuilder관련 예제" />
     <MESSAGE value="Garbage 예제" />
     <MESSAGE value="System 예제" />
@@ -610,7 +604,10 @@
     <MESSAGE value="제네릭 메서드 예제" />
     <MESSAGE value="제네릭 메서드 내용 추가" />
     <MESSAGE value="Collection 내용 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collection 내용 예제" />
+    <MESSAGE value="Collection(Queue) 내용 예제" />
+    <MESSAGE value="Collection(List) 내용 예제" />
+    <MESSAGE value="Collection(Set) 내용 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection(Set) 내용 예제" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

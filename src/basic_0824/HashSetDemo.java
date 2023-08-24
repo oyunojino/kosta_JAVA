@@ -25,14 +25,32 @@ public class HashSetDemo {
     System.out.println("E의 hashCode() 값 => " + "E".hashCode());
     System.out.println("F의 hashCode() 값 => " + "F".hashCode());
 
+//    boolean isExist = false;
+//    for (String ele : hashSet) {
+//      if (ele.hashCode() == "F".hashCode()) {
+//        isExist = true;
+//        break;
+//      }
+//    }
+
+
+    if (!isExist(hashSet, "F")) hashSet.add("F");
+    else System.out.println("F가 이미 존재하여 추가할 수 없습니다.");
+
+
+    if (!isExist(hashSet, "G")) hashSet.add("G");
+    else
+      System.out.println("G가 이미 존재하여 추가할 수 없습니다.");
+  }
+
+  static <T> boolean isExist(Set<T> set, T obj) {
     boolean isExist = false;
-    for (String ele : hashSet) {
-      if (ele.hashCode() == "F".hashCode()) {
+    for (T ele : set) {
+      if (ele.hashCode() == obj.hashCode()) {
         isExist = true;
         break;
       }
     }
-    if(!isExist) hashSet.add("F");
-    else System.out.println("F가 이미 존재하여 추가할 수 없습니다.");
+    return isExist;
   }
 }
