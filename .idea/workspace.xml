@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="제네릭 형식으로 변경">
-      <change afterPath="$PROJECT_DIR$/src/basic_0823/GenericInheritanceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0823/GenericMethod2Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0823/GenericMethod3Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0823/GenericMethodDemo.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="제네릭 메서드 예제">
+      <change afterPath="$PROJECT_DIR$/src/basic_0824/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0824/IteratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0824/ListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0824/PerformanceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0824/StackDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_0823/GenericClass1Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0823/GenericClass1Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,26 +78,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/code/KOSTA_JAVA/src/basic_0823",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/code/KOSTA_JAVA/src/basic_0823&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="basic_0821.dao" />
@@ -117,13 +119,13 @@
       <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericInheritanceDemo">
-    <configuration name="GenericInheritanceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0823.GenericInheritanceDemo" />
+  <component name="RunManager" selected="Application.PerformanceDemo">
+    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0824.ArrayListDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0823.*" />
+          <option name="PATTERN" value="basic_0824.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMethod2Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0823.GenericMethod2Demo" />
+    <configuration name="ListDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0824.ListDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0823.*" />
+          <option name="PATTERN" value="basic_0824.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMethod3Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0823.GenericMethod3Demo" />
+    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0824.ListDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0823.*" />
+          <option name="PATTERN" value="basic_0824.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMethodDemo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0823.GenericMethodDemo" />
+    <configuration name="PerformanceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0824.PerformanceDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0823.*" />
+          <option name="PATTERN" value="basic_0824.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0823.GenericTest" />
+    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0824.StackDemo" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0823.*" />
+          <option name="PATTERN" value="basic_0824.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,19 +186,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GenericInheritanceDemo" />
-      <item itemvalue="Application.GenericMethod2Demo" />
-      <item itemvalue="Application.GenericMethod3Demo" />
-      <item itemvalue="Application.GenericMethodDemo (3)" />
-      <item itemvalue="Application.GenericTest" />
+      <item itemvalue="Application.ArrayListDemo" />
+      <item itemvalue="Application.ListDemo" />
+      <item itemvalue="Application.ListDemo (2)" />
+      <item itemvalue="Application.PerformanceDemo" />
+      <item itemvalue="Application.StackDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericInheritanceDemo" />
-        <item itemvalue="Application.GenericTest" />
-        <item itemvalue="Application.GenericMethod3Demo" />
-        <item itemvalue="Application.GenericMethod2Demo" />
-        <item itemvalue="Application.GenericMethodDemo (3)" />
+        <item itemvalue="Application.PerformanceDemo" />
+        <item itemvalue="Application.StackDemo" />
+        <item itemvalue="Application.ArrayListDemo" />
+        <item itemvalue="Application.ListDemo" />
+        <item itemvalue="Application.ListDemo (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -566,7 +568,7 @@
       <option name="project" value="LOCAL" />
       <updated>1692165849871</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,7 +586,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="프로그래밍 문제 5 오류 수정&#10;-&gt; 07.인터페이스와 특수클래스" />
     <MESSAGE value="프로그래밍 문제 6 풀이&#10;-&gt; 07.인터페이스와 특수클래스" />
     <MESSAGE value="프로그래밍 문제 6 주석 추가&#10;-&gt; 07.인터페이스와 특수클래스" />
     <MESSAGE value="String과 StringBuilder 객체의 차이점" />
@@ -609,7 +610,8 @@
     <MESSAGE value="제네릭 기본 설명" />
     <MESSAGE value="제네릭 사용 시 변경사항 작성" />
     <MESSAGE value="제네릭 형식으로 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="제네릭 형식으로 변경" />
+    <MESSAGE value="제네릭 메서드 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="제네릭 메서드 예제" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
