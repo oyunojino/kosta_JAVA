@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="Collection(Set) 내용 예제">
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="@FunctionalInterface를 람다식으로 사용할 때 익명이기 때문에 무조건 1개의 메서드만 사용 가능(넘어가면 오류 발생)">
+      <change afterPath="$PROJECT_DIR$/src/basic_0825/ComparatorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic_0824/HashSetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0824/HashSetDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,20 +108,20 @@
       <recent name="basic_0817" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basic_0824.test" />
       <recent name="basic_0824" />
       <recent name="basic_0821.bird" />
       <recent name="basic_0818" />
       <recent name="basic_0811" />
-      <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashSetDemo">
-    <configuration name="HashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0824.HashSetDemo" />
+  <component name="RunManager" selected="Application.StudentsAvgExample">
+    <configuration name="AnimalsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0825.test.AnimalsExample" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0824.*" />
+          <option name="PATTERN" value="basic_0825.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerformanceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0824.PerformanceDemo" />
+    <configuration name="FunctionalInterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0825.test.FunctionalInterfaceExample" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0824.*" />
+          <option name="PATTERN" value="basic_0825.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0824.QueueDemo" />
+    <configuration name="LambdaButtonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0825.test.LambdaButtonExample" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0824.*" />
+          <option name="PATTERN" value="basic_0825.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0824.QueueDemo1" />
+    <configuration name="MaxOrMinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0825.test.MaxOrMinExample" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0824.*" />
+          <option name="PATTERN" value="basic_0825.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +168,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0824.StackDemo" />
+    <configuration name="PersonDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0824.test.PersonDemo1" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0824.*" />
+          <option name="PATTERN" value="basic_0824.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0824.test.PersonDemo1" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0824.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0824.test.PersonDemo1" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0824.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentsAvgExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0825.test.StudentsAvgExample" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0825.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,19 +221,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HashSetDemo" />
-      <item itemvalue="Application.PerformanceDemo" />
-      <item itemvalue="Application.QueueDemo" />
-      <item itemvalue="Application.QueueDemo1" />
-      <item itemvalue="Application.StackDemo" />
+      <item itemvalue="Application.AnimalsExample" />
+      <item itemvalue="Application.FunctionalInterfaceExample" />
+      <item itemvalue="Application.LambdaButtonExample" />
+      <item itemvalue="Application.MaxOrMinExample" />
+      <item itemvalue="Application.StudentsAvgExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashSetDemo" />
-        <item itemvalue="Application.QueueDemo1" />
-        <item itemvalue="Application.QueueDemo" />
-        <item itemvalue="Application.PerformanceDemo" />
-        <item itemvalue="Application.StackDemo" />
+        <item itemvalue="Application.StudentsAvgExample" />
+        <item itemvalue="Application.MaxOrMinExample" />
+        <item itemvalue="Application.FunctionalInterfaceExample" />
+        <item itemvalue="Application.LambdaButtonExample" />
+        <item itemvalue="Application.AnimalsExample" />
       </list>
     </recent_temporary>
   </component>
@@ -564,7 +603,7 @@
       <option name="project" value="LOCAL" />
       <updated>1692165849871</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,19 +621,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="StringBuilder관련 예제" />
-    <MESSAGE value="Garbage 예제" />
-    <MESSAGE value="System 예제" />
-    <MESSAGE value="Arrays 예제" />
-    <MESSAGE value="Wrapper 예제" />
-    <MESSAGE value="9장 예제 풀이" />
-    <MESSAGE value="이것이 자바다(P.404) 참고" />
-    <MESSAGE value="java.util.Date 실습" />
-    <MESSAGE value="java.util.Calender 실습" />
-    <MESSAGE value="java.util.Random 실습" />
-    <MESSAGE value="java.text.Format 실습" />
-    <MESSAGE value="java.util.StringTokenizer 실습" />
-    <MESSAGE value="예외 처리 X" />
     <MESSAGE value="예외 처리 O" />
     <MESSAGE value="제네릭 설명" />
     <MESSAGE value="java.base 모듈 관련 예제" />
@@ -605,9 +631,22 @@
     <MESSAGE value="제네릭 메서드 내용 추가" />
     <MESSAGE value="Collection 내용 예제" />
     <MESSAGE value="Collection(Queue) 내용 예제" />
-    <MESSAGE value="Collection(List) 내용 예제" />
     <MESSAGE value="Collection(Set) 내용 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collection(Set) 내용 예제" />
+    <MESSAGE value="Collection(Set) 내용 예제&#10;-&gt; 제네릭 타입의 정적 메서드 생성 후 반복 제거" />
+    <MESSAGE value="Collection(List) 내용 예제&#10;-&gt; ArrayList 사용" />
+    <MESSAGE value="Collection(List) 내용 예제&#10;-&gt; HashSet, hashCode(), equals()" />
+    <MESSAGE value="Collection(Map) 내용 예제" />
+    <MESSAGE value="Collection(List) 내용 예제" />
+    <MESSAGE value="Predicate&lt;T&gt;&#10;-&gt; boolean으로 반환" />
+    <MESSAGE value="HashMap 관련 -&gt; .replaceAll(), .toUpperCase()" />
+    <MESSAGE value="@FunctionalInterface 에제" />
+    <MESSAGE value=".forEach() 예제" />
+    <MESSAGE value="@FunctionalInterface 를 사용해서 각 과목의 평균 점수 구하기" />
+    <MESSAGE value="리팩터링 필요!!" />
+    <MESSAGE value="함수형 인터페이스 사용법&#10;1. 매개변수 / 2. 리턴타입" />
+    <MESSAGE value="오류 발생 예시" />
+    <MESSAGE value="@FunctionalInterface를 람다식으로 사용할 때 익명이기 때문에 무조건 1개의 메서드만 사용 가능(넘어가면 오류 발생)" />
+    <option name="LAST_COMMIT_MESSAGE" value="@FunctionalInterface를 람다식으로 사용할 때 익명이기 때문에 무조건 1개의 메서드만 사용 가능(넘어가면 오류 발생)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
