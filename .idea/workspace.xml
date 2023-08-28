@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="nation 중 인구가 1억 이상인 나라 2개만 출력하기">
-      <change afterPath="$PROJECT_DIR$/src/basic_0828/FindDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0828/Map1Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0828/Map2Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0828/Map3Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0828/MatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0828/Reduce1Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0828/Reduce2Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0828/SortedDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0828/StatisticDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0828/test/AverageGetAsDoubleExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0828/test/CollectExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_0828/test/StringStreamExample.java" afterDir="false" />
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="enum 예제">
+      <change afterPath="$PROJECT_DIR$/src/basic_0816/Circle/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0816/Circle/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0816/Circle/Ex_11_interitance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +25,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,24 +32,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;history&quot;: [
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
     {
-      &quot;state&quot;: &quot;OPEN&quot;,
-      &quot;assignee&quot;: &quot;oyunojino&quot;,
-      &quot;author&quot;: &quot;oyunojino&quot;
-    },
-    {
-      &quot;assignee&quot;: &quot;oyunojino&quot;
+      "state": "OPEN",
+      "assignee": "oyunojino",
+      "author": "oyunojino"
     }
   ],
-  &quot;lastFilter&quot;: {
+  "lastFilter": {
   }
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="1557839b-3689-46f1-9e25-489b8ee3baf6" />
+        <option name="accountId" value="b529ecd7-ae8e-4751-8881-3160b9d2d707" />
         <option name="url" value="https://github.com/oyunojino/kosta_JAVA.git" />
       </UrlAndAccount>
     </option>
@@ -73,9 +60,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
   <component name="ProjectId" id="2Tj9j85dM8mEgkhhf8bhbfXQ85o" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -90,49 +74,34 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/code/KOSTA_JAVA/src/basic_0823&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/code_kosta/KOSTA_newProject/newProject/src/basic_0811/Circle&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="basic_0821.dao" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\code\KOSTA_JAVA\src\basic_0823" />
-      <recent name="C:\code\KOSTA_JAVA\src\basic_0818" />
       <recent name="C:\code_kosta\KOSTA_newProject\newProject\src\basic_0811\Circle" />
       <recent name="C:\code_kosta\KOSTA_newProject\newProject\src\basic_0811\triangle" />
       <recent name="C:\code_kosta\KOSTA_newProject\newProject\src\basic_0811\triangle2" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="basic_0817" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="basic_0824.test" />
-      <recent name="basic_0824" />
-      <recent name="basic_0821.bird" />
-      <recent name="basic_0818" />
       <recent name="basic_0811" />
+      <recent name="basic_0810" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Reduce2Demo">
-    <configuration name="AverageGetAsDoubleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0828.test.AverageGetAsDoubleExample" />
+  <component name="RunManager" selected="Application.Ex_11_interitance">
+    <configuration name="Ex_08_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0816.Ex_08_test" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0828.test.*" />
+          <option name="PATTERN" value="basic_0816.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AverageGetAsDoubleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0828.test.AverageGetAsDoubleExample" />
+    <configuration name="Ex_09_grade_enum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0816.grade.Ex_09_grade_enum" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0828.test.*" />
+          <option name="PATTERN" value="basic_0816.grade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0828.test.CollectExample" />
+    <configuration name="Ex_09_grade_if_else" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0816.grade.Ex_09_grade_if_else" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0828.test.*" />
+          <option name="PATTERN" value="basic_0816.people.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0824.test.PersonDemo1" />
+    <configuration name="Ex_10_month_enum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0816.month.Ex_10_month_enum" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0824.test.*" />
+          <option name="PATTERN" value="basic_0816.month.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,51 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0824.test.PersonDemo1" />
+    <configuration name="Ex_11_interitance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0816.Circle.Ex_11_interitance" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0824.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reduce1Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0828.Reduce1Demo" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0828.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reduce2Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0828.Reduce2Demo" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0828.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0828.test.StringStreamExample" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0828.test.*" />
+          <option name="PATTERN" value="basic_0816.Circle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,19 +162,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AverageGetAsDoubleExample" />
-      <item itemvalue="Application.CollectExample" />
-      <item itemvalue="Application.Reduce1Demo" />
-      <item itemvalue="Application.Reduce2Demo" />
-      <item itemvalue="Application.StringStreamExample" />
+      <item itemvalue="Application.Ex_11_interitance" />
+      <item itemvalue="Application.Ex_08_test" />
+      <item itemvalue="Application.Ex_09_grade_enum" />
+      <item itemvalue="Application.Ex_09_grade_if_else" />
+      <item itemvalue="Application.Ex_10_month_enum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Reduce2Demo" />
-        <item itemvalue="Application.Reduce1Demo" />
-        <item itemvalue="Application.CollectExample" />
-        <item itemvalue="Application.AverageGetAsDoubleExample" />
-        <item itemvalue="Application.AverageGetAsDoubleExample" />
+        <item itemvalue="Application.Ex_11_interitance" />
+        <item itemvalue="Application.Ex_08_test" />
+        <item itemvalue="Application.Ex_10_month_enum" />
+        <item itemvalue="Application.Ex_09_grade_enum" />
+        <item itemvalue="Application.Ex_09_grade_if_else" />
       </list>
     </recent_temporary>
   </component>
@@ -614,15 +544,45 @@
       <option name="project" value="LOCAL" />
       <updated>1692165849871</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="5742bf73-3d7d-4a05-b3d9-2a3400e6dcc7" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="5742bf73-3d7d-4a05-b3d9-2a3400e6dcc7">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/code_kosta/KOSTA_newProject/newProject/src/basic_0816/Circle" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -632,32 +592,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Collection(Queue) 내용 예제" />
-    <MESSAGE value="Collection(Set) 내용 예제" />
-    <MESSAGE value="Collection(Set) 내용 예제&#10;-&gt; 제네릭 타입의 정적 메서드 생성 후 반복 제거" />
-    <MESSAGE value="Collection(List) 내용 예제&#10;-&gt; ArrayList 사용" />
-    <MESSAGE value="Collection(List) 내용 예제&#10;-&gt; HashSet, hashCode(), equals()" />
-    <MESSAGE value="Collection(Map) 내용 예제" />
-    <MESSAGE value="Collection(List) 내용 예제" />
-    <MESSAGE value="Predicate&lt;T&gt;&#10;-&gt; boolean으로 반환" />
-    <MESSAGE value="HashMap 관련 -&gt; .replaceAll(), .toUpperCase()" />
-    <MESSAGE value="@FunctionalInterface 에제" />
-    <MESSAGE value=".forEach() 예제" />
-    <MESSAGE value="@FunctionalInterface 를 사용해서 각 과목의 평균 점수 구하기" />
-    <MESSAGE value="리팩터링 필요!!" />
-    <MESSAGE value="함수형 인터페이스 사용법&#10;1. 매개변수 / 2. 리턴타입" />
-    <MESSAGE value="오류 발생 예시" />
-    <MESSAGE value="@FunctionalInterface를 람다식으로 사용할 때 익명이기 때문에 무조건 1개의 메서드만 사용 가능(넘어가면 오류 발생)" />
-    <MESSAGE value="Collections 클래스를 통해서 .sort() 사용" />
-    <MESSAGE value="기본 코드를 스트림 코드로 변경" />
-    <MESSAGE value="느긋한 연산관련 예제" />
-    <MESSAGE value="병렬처리 관련 예제" />
-    <MESSAGE value="옵션 타입 관련 예제" />
-    <MESSAGE value=".filter() 관련 예제" />
-    <MESSAGE value="Stream 생성 예제" />
-    <MESSAGE value="공통으로 사용될 클래스 생성" />
-    <MESSAGE value="nation 중 인구가 1억 이상인 나라 2개만 출력하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="nation 중 인구가 1억 이상인 나라 2개만 출력하기" />
+    <MESSAGE value="Math.random() 예제" />
+    <MESSAGE value="2단원 예제 실습" />
+    <MESSAGE value="equals와 == 비교" />
+    <MESSAGE value="문자열 비교 관련 내용" />
+    <MESSAGE value="문자열 조작 메서드 예제" />
+    <MESSAGE value="정적 메서드 예제" />
+    <MESSAGE value="수정" />
+    <MESSAGE value="배열 예제" />
+    <MESSAGE value="다차원 배열 예제" />
+    <MESSAGE value="String 배열 예제" />
+    <MESSAGE value="배열 선언방법 변경" />
+    <MESSAGE value="생성자명 변경 및 오류 수정" />
+    <MESSAGE value="파일 삭제" />
+    <MESSAGE value="문자열에 포함된 문자의 개수를 반환하는 메서드 구현" />
+    <MESSAGE value="for문 for~each문으로 변경" />
+    <MESSAGE value="String 클래스에서 제공하는 문자열 조작 메서드 사용&#10;-&gt; .endsWith() / .contains() / .toLowerCase()" />
+    <MESSAGE value="10단위 간격의 히스토그램 출력 메서드 작성" />
+    <MESSAGE value="1. 원의 넓이 구하는 findArea() 메서드 활용&#10;2. 원의 반지름을 증가시키는 change 함수 생성" />
+    <MESSAGE value="원의 반지름 변경 메서드 생성" />
+    <MESSAGE value="배열에 주소값 넣기" />
+    <MESSAGE value="ArrayList 예제" />
+    <MESSAGE value="ArrayList로 점수를 입력받아 합계 및 평균 구하기" />
+    <MESSAGE value="." />
+    <MESSAGE value="args 활용 예제" />
+    <MESSAGE value="enum 예제" />
+    <option name="LAST_COMMIT_MESSAGE" value="enum 예제" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
