@@ -11,12 +11,12 @@ public class AverageGetAsDoubleExample {
 
         new Member("감자바", 26)
     );
-//    double avg = list.stream()
-//        .map(x -> x.getAge())
-//        .average()
-//        .getAsDouble();
+    double avg = list.stream()
+        .mapToInt(x -> x.getAge())
+        .average()
+        .getAsDouble();
 
-//    System.out.println("평균 나이: " + avg);
+    System.out.println("평균 나이: " + avg);
   }
 }
 
