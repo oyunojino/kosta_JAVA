@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="공통으로 사용될 클래스 생성">
+    <list default="true" id="31730f26-30f1-4a5f-aae8-291389084a9e" name="변경" comment="nation 중 인구가 1억 이상인 나라 2개만 출력하기">
+      <change afterPath="$PROJECT_DIR$/src/basic_0828/FindDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0828/Map1Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0828/Map2Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0828/Map3Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0828/MatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0828/Reduce1Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0828/Reduce2Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0828/SortedDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0828/StatisticDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0828/test/AverageGetAsDoubleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0828/test/CollectExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_0828/test/StringStreamExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic_0828/FilterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_0828/FilterDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,13 +126,13 @@
       <recent name="basic_0811" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FilterDemo">
-    <configuration name="FilterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0828.FilterDemo" />
+  <component name="RunManager" selected="Application.Reduce2Demo">
+    <configuration name="AverageGetAsDoubleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0828.test.AverageGetAsDoubleExample" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0828.*" />
+          <option name="PATTERN" value="basic_0828.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Laziness1Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0828.Laziness1Demo" />
+    <configuration name="AverageGetAsDoubleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0828.test.AverageGetAsDoubleExample" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0828.*" />
+          <option name="PATTERN" value="basic_0828.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,38 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Optional1Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0828.Optional1Demo" />
+    <configuration name="CollectExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0828.test.CollectExample" />
       <module name="newProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic_0828.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Optional2Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0828.Optional2Demo" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0828.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParallelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic_0828.ParallelDemo" />
-      <module name="newProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic_0828.*" />
+          <option name="PATTERN" value="basic_0828.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,6 +185,45 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="basic_0824.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reduce1Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0828.Reduce1Demo" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0828.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reduce2Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0828.Reduce2Demo" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0828.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_0828.test.StringStreamExample" />
+      <module name="newProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_0828.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,19 +232,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FilterDemo" />
-      <item itemvalue="Application.Laziness1Demo" />
-      <item itemvalue="Application.Optional1Demo" />
-      <item itemvalue="Application.Optional2Demo" />
-      <item itemvalue="Application.ParallelDemo" />
+      <item itemvalue="Application.AverageGetAsDoubleExample" />
+      <item itemvalue="Application.CollectExample" />
+      <item itemvalue="Application.Reduce1Demo" />
+      <item itemvalue="Application.Reduce2Demo" />
+      <item itemvalue="Application.StringStreamExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FilterDemo" />
-        <item itemvalue="Application.Optional2Demo" />
-        <item itemvalue="Application.Optional1Demo" />
-        <item itemvalue="Application.ParallelDemo" />
-        <item itemvalue="Application.Laziness1Demo" />
+        <item itemvalue="Application.Reduce2Demo" />
+        <item itemvalue="Application.Reduce1Demo" />
+        <item itemvalue="Application.CollectExample" />
+        <item itemvalue="Application.AverageGetAsDoubleExample" />
+        <item itemvalue="Application.AverageGetAsDoubleExample" />
       </list>
     </recent_temporary>
   </component>
@@ -590,7 +614,7 @@
       <option name="project" value="LOCAL" />
       <updated>1692165849871</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,7 +632,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Collection 내용 예제" />
     <MESSAGE value="Collection(Queue) 내용 예제" />
     <MESSAGE value="Collection(Set) 내용 예제" />
     <MESSAGE value="Collection(Set) 내용 예제&#10;-&gt; 제네릭 타입의 정적 메서드 생성 후 반복 제거" />
@@ -633,7 +656,8 @@
     <MESSAGE value=".filter() 관련 예제" />
     <MESSAGE value="Stream 생성 예제" />
     <MESSAGE value="공통으로 사용될 클래스 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="공통으로 사용될 클래스 생성" />
+    <MESSAGE value="nation 중 인구가 1억 이상인 나라 2개만 출력하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="nation 중 인구가 1억 이상인 나라 2개만 출력하기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
